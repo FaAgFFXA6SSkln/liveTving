@@ -1,9 +1,10 @@
 {
-  "streamingHomeUrl": "https://tving.com/",
-  "mainScriptVersion": "00000000",
+  "streamingHomeUrl": "https://tving.com/live",
+  "mainScriptVersion": "00000001",
   "mainScriptUrl": "https://raw.githubusercontent.com/FaAgFFXA6SSkln/liveTving/refs/heads/main/userScript.js",
   "otherScripts": [
 
     
   ]
+
 }
