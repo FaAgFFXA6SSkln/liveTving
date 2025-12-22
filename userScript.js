@@ -9,7 +9,7 @@ const isTving = pathname.includes("tving");
 (function() {
   'use strict';
   if (!isTving) return;
-  if (pathname.includes("onboarding")) window.location.href = 'https://www.tving.com/account/login/tving?returnUrl=https://tving.com/live';
+  if (pathname.includes("onboarding")) window.location.href = 'https://www.tving.com/account/login/tving?returnUrl=https://www.tving.com/live/C00551';
 
   const userId = 'enbita';
   const userPassword = 'qpwpeprp1!';
