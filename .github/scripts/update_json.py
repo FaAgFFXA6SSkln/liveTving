@@ -28,7 +28,7 @@ def main():
     if not isinstance(data, list):
         raise RuntimeError("JSON root is not a list")
 
-    # 1. '한국'이 포함된 항목만 필터링 + title != "test"
+    # 1. 필터링
     filtered = [
         item for item in data
         if isinstance(item, dict)
@@ -38,7 +38,7 @@ def main():
         and "한국영화" not in item.get("title", "")
     ]
 
-    # 2. group 문자열 "한국"으로 통일
+    # 2. group 문자열 통일
     for item in filtered:
         item["group"] = "한국"
 
@@ -50,22 +50,47 @@ def main():
         if title not in seen_titles:
             unique_filtered.append(item)
             seen_titles.add(title)
-        # 중복이면 스킵 (뒤쪽 제거)
 
-    # 4. priority_titles에 있는 항목을 맨 위로 정렬
-    def sort_key(item):
-        try:
-            return priority_titles.index(item.get("title", "")), 0
-        except ValueError:
-            return len(priority_titles), 0
+    # 4. priority / 기타 분리
+    priority_items = []
+    other_items = []
 
-    unique_filtered.sort(key=sort_key)
+    for item in unique_filtered:
+        if item.get("title") in priority_titles:
+            priority_items.append(item)
+        else:
+            other_items.append(item)
 
-    # 5. 파일로 저장
+    # priority_titles 순서 유지
+    priority_items.sort(
+        key=lambda x: priority_titles.index(x.get("title"))
+    )
+
+    # 5. SPOTV 항목 삽입
+    spotv_item = {
+        "group": "한국",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/df/SPO_TV_logo.png",
+        "name": "SPOTV",
+        "title": "SPOTV",
+        "uris": [
+            "https://211.170.95.22/vod/66701.m3u8?VOD_RequestID=v2M2-0101-1010-7272-5050-000020180717021633"
+        ]
+    }
+
+    # 혹시 기존 SPOTV가 있으면 제거
+    other_items = [
+        item for item in other_items
+        if item.get("title") != "SPOTV"
+    ]
+
+    # 6. 최종 조합
+    final_list = priority_items + [spotv_item] + other_items
+
+    # 7. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(unique_filtered, f, ensure_ascii=False, indent=2)
+        json.dump(final_list, f, ensure_ascii=False, indent=2)
 
-    print(f"{len(data)} -> {len(unique_filtered)} items (duplicates removed, 'test' excluded)")
+    print(f"{len(data)} -> {len(final_list)} items (filtered, deduped, reordered)")
 
 if __name__ == "__main__":
     main()
