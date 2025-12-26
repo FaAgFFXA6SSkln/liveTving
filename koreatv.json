@@ -634,32 +634,5 @@
     "uris": [
       "https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8"
     ]
-  },
-  {
-    "group": "한국",
-    "logo": "",
-    "name": "한국영화1",
-    "title": "한국영화1",
-    "uris": [
-      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=595"
-    ]
-  },
-  {
-    "group": "한국",
-    "logo": "",
-    "name": "한국영화2",
-    "title": "한국영화2",
-    "uris": [
-      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=743"
-    ]
-  },
-  {
-    "group": "한국",
-    "logo": "",
-    "name": "한국영화3",
-    "title": "한국영화3",
-    "uris": [
-      "https://stream.ads.ottera.tv/playlist.m3u8?network_id=742"
-    ]
   }
 ]
