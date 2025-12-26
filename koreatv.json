@@ -638,15 +638,6 @@
   {
     "group": "한국",
     "logo": "",
-    "name": "test",
-    "title": "test",
-    "uris": [
-      "https://sogne.tving.com/8a8cb3dd97eda1840197f6fd307218b6/package/8a8cb3dd97eda1840197f73cf41b1d24/c961285e-f16b-4bf5-b591-9e2bf49bc0cf/manifest.mpd?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjUyODE5ODEsInN1YiI6Iio4YThjYjNkZDk3ZWRhMTg0MDE5N2Y2ZmQzMDcyMThiNioiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwidnhyIjo3MjAsImRybSI6ZmFsc2UsIndtaSI6IiIsImRtdCI6InN0IiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzE0MS4wLjczOTAuMzciLCJpc3AiOiJHLUNvcmUgTGFicyBTQSJ9.dtDkLwslIPkxSFKz8z-X93UczzR4u9IzGnR1GWugHFY&vc=1%2C3&content_type=LIVE&pf=chrome%20headless_2.17.17_shakaplayer&xr=60&osn=linux&osv=x86_64&dvm=PC&brn=Chrome%20Headless&brv=141.0.7390.37&pln=ShakaPlayer&plv=2.17.17&ads.product_id=www.tving.com"
-    ]
-  },
-  {
-    "group": "한국",
-    "logo": "",
     "name": "한국영화1",
     "title": "한국영화1",
     "uris": [
