@@ -28,12 +28,13 @@ def main():
     if not isinstance(data, list):
         raise RuntimeError("JSON root is not a list")
 
-    # 1. '한국'이 포함된 항목만 필터링
+    # 1. '한국'이 포함된 항목만 필터링 + title != "test"
     filtered = [
         item for item in data
         if isinstance(item, dict)
         and "group" in item
         and "한국" in item["group"]
+        and item.get("title", "") != "test"
     ]
 
     # 2. group 문자열 "한국"으로 통일
@@ -63,7 +64,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique_filtered, f, ensure_ascii=False, indent=2)
 
-    print(f"{len(data)} -> {len(unique_filtered)} items (duplicates removed)")
+    print(f"{len(data)} -> {len(unique_filtered)} items (duplicates removed, 'test' excluded)")
 
 if __name__ == "__main__":
     main()
