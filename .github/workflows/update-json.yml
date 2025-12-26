@@ -1,5 +1,8 @@
 name: Update Korea TV JSON
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 * * * *'
