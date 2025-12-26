@@ -36,25 +36,34 @@ def main():
         and "한국" in item["group"]
     ]
 
-    # 2. group 문자열 공백 처리
+    # 2. group 문자열 "한국"으로 통일
     for item in filtered:
-        item["group"] = ""
+        item["group"] = "한국"
 
-    # 3. priority_titles에 있는 항목을 맨 위로 정렬
+    # 3. 중복 제거 (title 기준, 뒤쪽 제거)
+    seen_titles = set()
+    unique_filtered = []
+    for item in filtered:
+        title = item.get("title", "")
+        if title not in seen_titles:
+            unique_filtered.append(item)
+            seen_titles.add(title)
+        # 중복이면 스킵 (뒤쪽 제거)
+
+    # 4. priority_titles에 있는 항목을 맨 위로 정렬
     def sort_key(item):
-        # 우선순위 목록에 있으면 인덱스로, 없으면 큰 숫자
         try:
             return priority_titles.index(item.get("title", "")), 0
         except ValueError:
             return len(priority_titles), 0
 
-    filtered.sort(key=sort_key)
+    unique_filtered.sort(key=sort_key)
 
-    # 4. 파일로 저장
+    # 5. 파일로 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(filtered, f, ensure_ascii=False, indent=2)
+        json.dump(unique_filtered, f, ensure_ascii=False, indent=2)
 
-    print(f"{len(data)} -> {len(filtered)} items")
+    print(f"{len(data)} -> {len(unique_filtered)} items (duplicates removed)")
 
 if __name__ == "__main__":
     main()
