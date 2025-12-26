@@ -35,6 +35,7 @@ def main():
         and "group" in item
         and "한국" in item["group"]
         and item.get("title", "") != "test"
+        and "한국영화" not in item.get("title", "")
     ]
 
     # 2. group 문자열 "한국"으로 통일
