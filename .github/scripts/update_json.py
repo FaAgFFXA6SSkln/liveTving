@@ -41,6 +41,11 @@ def main():
     # 2. group 문자열 통일
     for item in filtered:
         item["group"] = "한국"
+    
+        # 문화유산채널 → 국가유산채널
+        if item.get("name") == "문화유산채널" and item.get("title") == "문화유산채널":
+            item["name"] = "국가유산채널"
+            item["title"] = "국가유산채널"
 
     # 3. 중복 제거 (title 기준, 뒤쪽 제거)
     seen_titles = set()
