@@ -82,7 +82,7 @@ def main():
         "title": "SPOTV",
         "logo": f"{LOGO_BASE_URL}/SPOTV.png",
         "uris": [
-            "https://211.170.95.22/vod/66701.m3u8?VOD_RequestID=v2M2-0101-1010-7272-5050-000020180717021633"
+            "https://1.214.67.206/vod/66701.m3u8?VOD_RequestID=v2M2-0101-1010-7272-5050-000020180717021633;"
         ]
     }
 
