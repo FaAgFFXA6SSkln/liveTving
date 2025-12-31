@@ -1,7 +1,7 @@
 [
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/SBS.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS.png",
     "name": "SBS",
     "title": "SBS",
     "uris": [
@@ -10,7 +10,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS2.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS2.png",
     "name": "KBS2",
     "title": "KBS2",
     "uris": [
@@ -19,7 +19,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS1.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS1.png",
     "name": "KBS1",
     "title": "KBS1",
     "uris": [
@@ -28,7 +28,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBC.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBC.png",
     "name": "MBC",
     "title": "MBC",
     "uris": [
@@ -37,7 +37,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/EBS1.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/EBS1.png",
     "name": "EBS1",
     "title": "EBS1",
     "uris": [
@@ -49,7 +49,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/JTBC.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/JTBC.png",
     "name": "JTBC",
     "title": "JTBC",
     "uris": [
@@ -61,7 +61,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/TV CHOSUN.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/TV CHOSUN.png",
     "name": "TV CHOSUN",
     "title": "TV CHOSUN",
     "uris": [
@@ -73,7 +73,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBN.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBN.png",
     "name": "MBN",
     "title": "MBN",
     "uris": [
@@ -85,7 +85,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/채널A.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/채널A.png",
     "name": "채널A",
     "title": "채널A",
     "uris": [
@@ -97,7 +97,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/tvN.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/tvN.png",
     "name": "tvN",
     "title": "tvN",
     "uris": [
@@ -109,7 +109,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/Mnet.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/Mnet.png",
     "name": "Mnet",
     "title": "Mnet",
     "uris": [
@@ -121,16 +121,16 @@
   },
   {
     "group": "한국",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/df/SPO_TV_logo.png",
     "name": "SPOTV",
     "title": "SPOTV",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SPOTV.png",
     "uris": [
       "https://211.170.95.22/vod/66701.m3u8?VOD_RequestID=v2M2-0101-1010-7272-5050-000020180717021633"
     ]
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/YTN.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/YTN.png",
     "name": "YTN",
     "title": "YTN",
     "uris": [
@@ -142,7 +142,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/YTN2.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/YTN2.png",
     "name": "YTN2",
     "title": "YTN2",
     "uris": [
@@ -154,7 +154,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/YTN사이언스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/YTN사이언스.png",
     "name": "YTN사이언스",
     "title": "YTN사이언스",
     "uris": [
@@ -166,7 +166,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/연합뉴스TV.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/연합뉴스TV.png",
     "name": "연합뉴스TV",
     "title": "연합뉴스TV",
     "uris": [
@@ -178,7 +178,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/JTBC2.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/JTBC2.png",
     "name": "JTBC2",
     "title": "JTBC2",
     "uris": [
@@ -190,7 +190,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/JTBC4.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/JTBC4.png",
     "name": "JTBC4",
     "title": "JTBC4",
     "uris": [
@@ -202,7 +202,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/tvN SHOW.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/tvN SHOW.png",
     "name": "tvN SHOW",
     "title": "tvN SHOW",
     "uris": [
@@ -214,7 +214,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/tvN DRAMA.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/tvN DRAMA.png",
     "name": "tvN DRAMA",
     "title": "tvN DRAMA",
     "uris": [
@@ -226,7 +226,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/tvN STORY.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/tvN STORY.png",
     "name": "tvN STORY",
     "title": "tvN STORY",
     "uris": [
@@ -238,7 +238,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/채널A플러스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/채널A플러스.png",
     "name": "채널A플러스",
     "title": "채널A플러스",
     "uris": [
@@ -250,7 +250,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/TV CHOSUN 2.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/TV CHOSUN 2.png",
     "name": "TV CHOSUN 2",
     "title": "TV CHOSUN 2",
     "uris": [
@@ -262,7 +262,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBN 플러스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBN 플러스.png",
     "name": "MBN 플러스",
     "title": "MBN 플러스",
     "uris": [
@@ -274,7 +274,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/LIFETIME.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/LIFETIME.png",
     "name": "LIFETIME",
     "title": "LIFETIME",
     "uris": [
@@ -286,7 +286,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/중화TV.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/중화TV.png",
     "name": "중화TV",
     "title": "중화TV",
     "uris": [
@@ -298,7 +298,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/히스토리.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/히스토리.png",
     "name": "히스토리",
     "title": "히스토리",
     "uris": [
@@ -310,7 +310,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/국회방송(NATV).png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/국회방송(NATV).png",
     "name": "국회방송(NATV)",
     "title": "국회방송(NATV)",
     "uris": [
@@ -322,7 +322,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/ANIBOX.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/ANIBOX.png",
     "name": "ANIBOX",
     "title": "ANIBOX",
     "uris": [
@@ -334,7 +334,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/애니맥스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/애니맥스.png",
     "name": "애니맥스",
     "title": "애니맥스",
     "uris": [
@@ -346,7 +346,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/투니버스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/투니버스.png",
     "name": "투니버스",
     "title": "투니버스",
     "uris": [
@@ -358,7 +358,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS드라마.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS드라마.png",
     "name": "KBS드라마",
     "title": "KBS드라마",
     "uris": [
@@ -367,7 +367,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS조이.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS조이.png",
     "name": "KBS조이",
     "title": "KBS조이",
     "uris": [
@@ -376,7 +376,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS키즈.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS키즈.png",
     "name": "KBS키즈",
     "title": "KBS키즈",
     "uris": [
@@ -385,7 +385,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS LIFE.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS LIFE.png",
     "name": "KBS LIFE",
     "title": "KBS LIFE",
     "uris": [
@@ -394,7 +394,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS Story.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS Story.png",
     "name": "KBS Story",
     "title": "KBS Story",
     "uris": [
@@ -403,7 +403,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS WORLD.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS WORLD.png",
     "name": "KBS WORLD",
     "title": "KBS WORLD",
     "uris": [
@@ -412,7 +412,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/KBS뉴스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/KBS뉴스.png",
     "name": "KBS뉴스",
     "title": "KBS뉴스",
     "uris": [
@@ -421,7 +421,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/SBS플러스.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS플러스.png",
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
@@ -430,7 +430,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/SBS퍼니.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS퍼니.png",
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
@@ -439,7 +439,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS LIFE.png",
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
@@ -448,7 +448,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS KPOP.png",
     "name": "SBS KPOP",
     "title": "SBS KPOP",
     "uris": [
@@ -457,7 +457,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/SBS골프.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS골프.png",
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
@@ -466,7 +466,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS Golf2.png",
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
@@ -475,7 +475,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS스포츠.png",
     "name": "SBS스포츠",
     "title": "SBS스포츠",
     "uris": [
@@ -484,7 +484,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/SBS Biz.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS Biz.png",
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
@@ -493,7 +493,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBC드라마넷.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBC드라마넷.png",
     "name": "MBC드라마넷",
     "title": "MBC드라마넷",
     "uris": [
@@ -502,7 +502,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBC에브리원.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBC에브리원.png",
     "name": "MBC에브리원",
     "title": "MBC에브리원",
     "uris": [
@@ -511,7 +511,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBC M.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBC M.png",
     "name": "MBC M",
     "title": "MBC M",
     "uris": [
@@ -520,7 +520,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBC ON.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBC ON.png",
     "name": "MBC ON",
     "title": "MBC ON",
     "uris": [
@@ -529,7 +529,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/MBCNET.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/MBCNET.png",
     "name": "MBCNET",
     "title": "MBCNET",
     "uris": [
@@ -538,7 +538,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/아리랑TV.png",
     "name": "아리랑TV",
     "title": "아리랑TV",
     "uris": [
@@ -547,7 +547,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/TBSTV.png",
     "name": "TBSTV",
     "title": "TBSTV",
     "uris": [
@@ -556,7 +556,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/ABN.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/ABN.png",
     "name": "ABN",
     "title": "ABN",
     "uris": [
@@ -565,7 +565,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/농협TV.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/농협TV.png",
     "name": "농협TV",
     "title": "농협TV",
     "uris": [
@@ -574,7 +574,7 @@
   },
   {
     "group": "한국",
-    "logo": "",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/복지TV.png",
     "name": "복지TV",
     "title": "복지TV",
     "uris": [
@@ -583,7 +583,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/국민방송.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/국민방송.png",
     "name": "국민방송",
     "title": "국민방송",
     "uris": [
@@ -592,7 +592,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/문화유산채널.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/국가유산채널.png",
     "name": "국가유산채널",
     "title": "국가유산채널",
     "uris": [
@@ -601,7 +601,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/방송대학TV.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/방송대학TV.png",
     "name": "방송대학TV",
     "title": "방송대학TV",
     "uris": [
@@ -610,7 +610,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/EBS2.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/EBS2.png",
     "name": "EBS2",
     "title": "EBS2",
     "uris": [
@@ -619,7 +619,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/EBS+1.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/EBS+1.png",
     "name": "EBS+1",
     "title": "EBS+1",
     "uris": [
@@ -628,7 +628,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/EBS+2.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/EBS+2.png",
     "name": "EBS+2",
     "title": "EBS+2",
     "uris": [
@@ -637,7 +637,7 @@
   },
   {
     "group": "한국",
-    "logo": "https://pjytv.760515.xyz/logo/EBS English.png",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/EBS English.png",
     "name": "EBS English",
     "title": "EBS English",
     "uris": [
