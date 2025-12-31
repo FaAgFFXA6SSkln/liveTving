@@ -4,7 +4,8 @@ import json
 SOURCE_URL = "https://raw.githubusercontent.com/kenpark76/kenpark76.github.io/main/koreatv.json"
 OUTPUT_FILE = "koreatv.json"
 
-# 우선순위로 맨 위로 올릴 title 목록
+LOGO_BASE_URL = "https://faagffxa6sskln.github.io/liveTving/ChannelLogo"
+
 priority_titles = [
     "SBS",
     "KBS2",
@@ -38,16 +39,15 @@ def main():
         and "한국영화" not in item.get("title", "")
     ]
 
-    # 2. group 문자열 통일
+    # 2. group 문자열 통일 + 이름 치환
     for item in filtered:
         item["group"] = "한국"
-    
-        # 문화유산채널 → 국가유산채널
+
         if item.get("name") == "문화유산채널" and item.get("title") == "문화유산채널":
             item["name"] = "국가유산채널"
             item["title"] = "국가유산채널"
 
-    # 3. 중복 제거 (title 기준, 뒤쪽 제거)
+    # 3. 중복 제거 (title 기준)
     seen_titles = set()
     unique_filtered = []
     for item in filtered:
@@ -56,7 +56,12 @@ def main():
             unique_filtered.append(item)
             seen_titles.add(title)
 
-    # 4. priority / 기타 분리
+    # 4. logo 강제 덮어쓰기
+    for item in unique_filtered:
+        title = item.get("title", "")
+        item["logo"] = f"{LOGO_BASE_URL}/{title}.png"
+
+    # 5. priority / 기타 분리
     priority_items = []
     other_items = []
 
@@ -66,32 +71,30 @@ def main():
         else:
             other_items.append(item)
 
-    # priority_titles 순서 유지
     priority_items.sort(
         key=lambda x: priority_titles.index(x.get("title"))
     )
 
-    # 5. SPOTV 항목 삽입
+    # 6. SPOTV 항목 삽입 (logo 규칙 동일 적용)
     spotv_item = {
         "group": "한국",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/df/SPO_TV_logo.png",
         "name": "SPOTV",
         "title": "SPOTV",
+        "logo": f"{LOGO_BASE_URL}/SPOTV.png",
         "uris": [
             "https://211.170.95.22/vod/66701.m3u8?VOD_RequestID=v2M2-0101-1010-7272-5050-000020180717021633"
         ]
     }
 
-    # 혹시 기존 SPOTV가 있으면 제거
     other_items = [
         item for item in other_items
         if item.get("title") != "SPOTV"
     ]
 
-    # 6. 최종 조합
+    # 7. 최종 조합
     final_list = priority_items + [spotv_item] + other_items
 
-    # 7. 저장
+    # 8. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
