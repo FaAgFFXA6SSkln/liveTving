@@ -47,6 +47,9 @@ def main():
             item["name"] = "국가유산채널"
             item["title"] = "국가유산채널"
 
+        if item.get("name") == "MBC":
+            item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
+
     # 3. 중복 제거 (title 기준)
     seen_titles = set()
     unique_filtered = []
