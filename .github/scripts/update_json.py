@@ -56,6 +56,9 @@ def main():
         if item.get("name") == "YTN":
             item["uris"] = ["https://1.214.67.206/vod/69801.m3u8?VOD_RequestID="]
 
+        if item.get("name") == "TV CHOSUN":
+            item["uris"] = ["https://1.214.67.206/vod/74601.m3u8?VOD_RequestID="]
+
     # 3. 중복 제거 (title 기준)
     seen_titles = set()
     unique_filtered = []
