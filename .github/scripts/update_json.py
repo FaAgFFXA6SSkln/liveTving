@@ -51,7 +51,7 @@ def main():
             item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
 
         if item.get("name") == "SBS":
-            item["uris"] = ["https://vod.ikbc.co.kr/KBCTV/tv/chunklist_w84654937.m3u8"]
+            item["uris"] = ["https://1.214.67.206/vod/50401.m3u8?VOD_RequestID=v2M2-0101-1010-7272-5050-000020180717021633;"]
 
     # 3. 중복 제거 (title 기준)
     seen_titles = set()
