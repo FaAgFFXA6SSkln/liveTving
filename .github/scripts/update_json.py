@@ -50,6 +50,9 @@ def main():
         if item.get("name") == "MBC":
             item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
 
+        if item.get("name") == "SBS":
+            item["uris"] = ["https://vod.ikbc.co.kr/KBCTV/tv/chunklist_w84654937.m3u8"]
+
     # 3. 중복 제거 (title 기준)
     seen_titles = set()
     unique_filtered = []
