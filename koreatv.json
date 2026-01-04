@@ -146,7 +146,7 @@
     "name": "YTN2",
     "title": "YTN2",
     "uris": [
-      "https://sogne-live.tving.com/ytnw/live.smil/medialist_12498461171292152190_hls.m3u8?pf=chrome%20headless_2.17.22_hlsjs&osn=linux&osv=aarch64&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.22&dvm=PC&_sb=1&_cn=ostream-mcdn&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1ODk2NzcsInN1YiI6Ii95dG53LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiVnVsdHIiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.ATmD_imWrhlXMGHKq85XUty7kcamTJB4gXmaVkNRZ_k&ads.age=0&ads.asn=20473&ads.channel_code=C01101&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P000058704&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/ytnw/live.smil/medialist_12498461171292152190_hls.m3u8?pf=chrome%20headless_2.17.22_hlsjs&osn=linux&osv=aarch64&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.22&dvm=PC&_sb=1&_cn=ostream-mcdn&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc2MDE4MzgsInN1YiI6Ii95dG53LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiVnVsdHIiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.YPa-oYImEQOEUirtNv9DxBlCYfAZtrHyETT8YaqBlDc&ads.age=0&ads.asn=20473&ads.channel_code=C01101&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P000076435&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -158,7 +158,7 @@
     "name": "YTN사이언스",
     "title": "YTN사이언스",
     "uris": [
-      "https://sogne-live.tving.com/ytns/live.smil/medialist_12498461171292152190_hls.m3u8?pf=chrome%20headless_2.17.22_hlsjs&osn=linux&osv=aarch64&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.22&dvm=PC&_sb=1&_cn=ostream-mcdn&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1ODk3NjQsInN1YiI6Ii95dG5zLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiVnVsdHIiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.sp8rlLcCC4g3JiNbwLNyC6WyvaxMD4ojhz8xCo7y7l4&ads.age=0&ads.asn=20473&ads.channel_code=C15347&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001442703&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/ytns/live.smil/medialist_12498461171292152190_hls.m3u8?pf=chrome%20headless_2.17.22_hlsjs&osn=linux&osv=aarch64&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.22&dvm=PC&_sb=1&_cn=ostream-mcdn&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc2MDE5MTQsInN1YiI6Ii95dG5zLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiVnVsdHIiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.1AG6-ONdEs8XDXx6tAEji2lRJUHX8wvgkU9J_JiEiSU&ads.age=0&ads.asn=20473&ads.channel_code=C15347&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001759056&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -170,7 +170,7 @@
     "name": "연합뉴스TV",
     "title": "연합뉴스TV",
     "uris": [
-      "https://sogne-live.tving.com/yonhap/live.smil/chunklist_b2128000.m3u8?pf=chrome%20headless_2.17.22_hlsjs&osn=linux&osv=aarch64&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.22&dvm=PC&_sb=1&_cn=ostream-mcdn&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1ODk4NjAsInN1YiI6Ii95b25oYXAvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJWdWx0ciIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.WbU3zIXxSHPPBzhdSo6KObZb9MFG1J8KT3ky9h-rnNQ&ads.age=0&ads.asn=20473&ads.channel_code=C01723&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P000157303&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/yonhap/live.smil/chunklist_b2128000.m3u8?pf=chrome%20headless_2.17.22_hlsjs&osn=linux&osv=aarch64&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.22&dvm=PC&_sb=1&_cn=ostream-mcdn&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc2MDIwMTEsInN1YiI6Ii95b25oYXAvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJWdWx0ciIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.sFb0JI7eNBXmYmxpn9uX_UC_ALmdYIvWBTNGoCZ8E3w&ads.age=0&ads.asn=20473&ads.channel_code=C01723&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001772303&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -425,7 +425,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMDUsInBhdGgiOiIvc2JzcGx1czIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI3MzJjY2VjNS01ODU1LTRiZjMtYjNhMy1mMzAyODhjMGUyNjYiLCJpYXQiOjE3Njc1MTAwMDV9.6SWzVXW-LgHvQBTt2CruaVaTh1rcADD4yO_kVtjeAZw"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI4OTgsInBhdGgiOiIvc2JzcGx1czIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJhNDcwMTk4ZS01NDUwLTQwZjItYWNkYi03MDNmNzZmMGFlNGIiLCJpYXQiOjE3Njc1MTU2OTh9.nBc1Ycy9QmqqXpefylOX1F-Nv8V5584kSN10_M2uTgc"
     ]
   },
   {
@@ -434,7 +434,7 @@
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMTIsInBhdGgiOiIvc2JzZXR2Mi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjUyNDk4MTYxLTZkMGUtNGJjNC1iYzM1LWQxYTg5OTNiZDg5OSIsImlhdCI6MTc2NzUxMDAxMn0.8Kh2OYgr42kBxyGiww7QJVbu8e9_Fs-oOdVegQaxzOc"
+      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MDgsInBhdGgiOiIvc2JzZXR2Mi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImUwMzQzMjNlLTZkM2ItNDhjZC1hNmEzLWVlOGJkMWY4N2Y3OCIsImlhdCI6MTc2NzUxNTcwOH0.T1kpGTZecKOOFHqHolI1MYjOIKqAzgWTzBiTKNzAazo"
     ]
   },
   {
@@ -443,7 +443,7 @@
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsfil/sbsfil2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMTUsInBhdGgiOiIvc2JzZmlsMi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjUzMGIwYjcyLWM1MWMtNGEzZC05Y2ZmLTRiYTViZDI4ZGEyZCIsImlhdCI6MTc2NzUxMDAxNX0.s5Hwa-xP5DOMTMVTs-z8pVk9tV08CoTFadVVE_YokCM"
+      "https://tvlive.sbs.co.kr/sbsfil/sbsfil2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MTMsInBhdGgiOiIvc2JzZmlsMi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjdhYmI2NjlhLWQzMGEtNDc4MS05MWFiLWMzMDkwNWIwOTIyNiIsImlhdCI6MTc2NzUxNTcxM30.y10Nt82udTAa5SXWlF9gpuCxu1eLH4Grwm_EIfKKwas"
     ]
   },
   {
@@ -452,7 +452,7 @@
     "name": "SBS KPOP",
     "title": "SBS KPOP",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbskpop/sbskpop2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMzEsInBhdGgiOiIvc2Jza3BvcDIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJhZGVlMzEwNi05NmY2LTQ4YjEtYjc4ZC01ZDQxMjFkYTZjODIiLCJpYXQiOjE3Njc1MTAwMzF9.53W4CYt7U_gFgmFqq4mdpu2WRSiyz2gg6UuRR1JYQHg"
+      "https://tvlive.sbs.co.kr/sbskpop/sbskpop2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MjgsInBhdGgiOiIvc2Jza3BvcDIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIxNjU1OWQyNC1iZTZmLTQ3ZDAtYjdmNC03MjQ4ZjkyZTljOGIiLCJpYXQiOjE3Njc1MTU3Mjh9.AGi8wFhCCRx3ZJJQ-q9apmSqFSp4CNN82eVd1Ev_0Qg"
     ]
   },
   {
@@ -461,7 +461,7 @@
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMjMsInBhdGgiOiIvc2JzZ29sZjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI4MzI2NWRhMS03ZGI4LTRkYTMtYjZiOS01ZWFkMjY4MWI0ZjAiLCJpYXQiOjE3Njc1MTAwMjN9.ilLmbKvHvMio-fgZzDxkehP0c3AXWXOse86YAv0-rrM"
+      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MjEsInBhdGgiOiIvc2JzZ29sZjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIzYzhlOTExMS1lZjE4LTRiYmMtOWM0MS03ZTA4YmI4ZTBhMzAiLCJpYXQiOjE3Njc1MTU3MjF9.L_7f09MEVvzSroNpmqpxU95nTKNJrJOpOmiwotRldLI"
     ]
   },
   {
@@ -470,7 +470,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf22.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMjcsInBhdGgiOiIvc2JzZ29sZjIyLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMzJmOTZmNzYtN2QyOC00NGRiLThmOGEtYjRjNGY1N2NkN2E3IiwiaWF0IjoxNzY3NTEwMDI3fQ.cNQcuTIChtk71j8lAmgMJ4ZS3TQt79pihEXcVJeg7RE"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf22.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MjQsInBhdGgiOiIvc2JzZ29sZjIyLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiM2I2MWE4ZDgtYjIwNi00M2I0LTg0MWUtMDM5ZGU0NDM4M2E5IiwiaWF0IjoxNzY3NTE1NzI0fQ.GiT4jem3jKEg9ywKsCv1C4E2q2xFTWSBmsHXPZ3Xges"
     ]
   },
   {
@@ -479,7 +479,7 @@
     "name": "SBS스포츠",
     "title": "SBS스포츠",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsespn/sbsespn2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMTksInBhdGgiOiIvc2JzZXNwbjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJiYmY1NzI4Yi1jYmI1LTRkODgtOTg5Yi1iYThkNmJlYTVhY2YiLCJpYXQiOjE3Njc1MTAwMTl9.TVC0t3zxdbiCiyW9beckikryZjAmcjiXvNhVZwfHsQs"
+      "https://tvlive.sbs.co.kr/sbsespn/sbsespn2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MTcsInBhdGgiOiIvc2JzZXNwbjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI2NTUzOTZmZS05OTUwLTRiZmQtOTM3ZS1kYTM4ZjAwYTNlZTUiLCJpYXQiOjE3Njc1MTU3MTd9.M8NVobJwa1WZdy_KvxVu38RVRiclRveZL5eqSNbL7Vk"
     ]
   },
   {
@@ -488,7 +488,7 @@
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MTcyMDgsInBhdGgiOiIvc2JzY25iYzIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIwMGM4Mjk0Ni1jMzIzLTQ1NGYtOTkyMC0zN2FlYzYyZWIzZTgiLCJpYXQiOjE3Njc1MTAwMDh9.mR6jxHTuwV2nR-HQtaTIMIzvIcn7UsOvoeyohJZaHh8"
+      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Njc1MjI5MDUsInBhdGgiOiIvc2JzY25iYzIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJiN2E0ZmE2NS01NjcwLTQ0YWMtYWQyOS1mZDEyODhiNTZjYjYiLCJpYXQiOjE3Njc1MTU3MDV9.AW4LogP2SHgK9U9mkbFUpUDa78I_RKvwXil9Aw4dw9A"
     ]
   },
   {
