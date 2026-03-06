@@ -41,8 +41,12 @@
     "name": "EBS1",
     "title": "EBS1",
     "uris": [
-      "https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8"
-    ]
+      "https://ebs-live-mcdn.tving.com/ebs/live2000.smil/medialist_12498461171292152190_hls.m3u8"
+    ],
+    "headers": {
+      "cookie": "CloudFront-Key-Pair-Id=APKAIXCIJCFRGOUEZDWA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly9lYnMtbGl2ZS1tY2RuLnR2aW5nLmNvbS9lYnMvbGl2ZTIwMDAuc21pbCoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzI4ODAzMjF9LCJJcEFkZHJlc3MiOnsiQVdTOlNvdXJjZUlwIjoiMC4wLjAuMC8wIn19fV19;CloudFront-Signature=Va6pOMYmse2xqeUYuY7~13emnJHsjjc88VN-MiVF-euZz9Wh-igfdF2PvFCtVg24AF8ZvtxmnuTrt9QPG--NFI7aD6sNQnNFH1v-9ef9GeDPhEU3GMtWZ99iPmwka58RpfL1ejKqisVC0y0gsujffuhbMV5MI3VTIOCOfHmdtwGByrqXtbhKnvE03DZCpH4BM8t4uHQdQNZyHq0IQQ7aWYq6S4iT-BVViizNI4~zzEm6S8u2FH8ApezBlYy4V0kyI9ldnWMFK3LGFT8mtULXE57CMJsCfS5t9olVYoJ-3-g-Duf0gQOtUBC0t1PJ4Gf~ovCedoXfmFxgs6QKA5zlIA__;",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    }
   },
   {
     "group": "한국",
@@ -50,7 +54,7 @@
     "name": "JTBC",
     "title": "JTBC",
     "uris": [
-      "https://sogne-live.tving.com/jtbc/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjAyNjEsInN1YiI6Ii9qdGJjLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.1l316Jw2KFt-TqnZ1KYqdHRo7__U0r9w4MLIaQp45y8&ads.age=0&ads.asn=199524&ads.channel_code=C01582&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0300&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001781187&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/jtbc/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzg5NTcsInN1YiI6Ii9qdGJjLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.Ddoy1EzYnNYt4614BLZCK7WSHZflkxvqHVyAF2k-JwU&ads.age=0&ads.asn=199524&ads.channel_code=C01582&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001152940&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -74,7 +78,7 @@
     "name": "MBN",
     "title": "MBN",
     "uris": [
-      "https://sogne-live.tving.com/mbn/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjEyMTUsInN1YiI6Ii9tYm4vKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.Lz4c3EjZYChFcTT2plxasBt8w6D3wPl3gRhXqq1mK2o&ads.age=0&ads.asn=199524&ads.channel_code=C00708&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001780542&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/mbn/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk5MTQsInN1YiI6Ii9tYm4vKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.FB2go3-g2XfI1ubQq8BmitbwLc4xlK2KKTyx0oLPCL8&ads.age=0&ads.asn=199524&ads.channel_code=C00708&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001772630&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -86,7 +90,7 @@
     "name": "채널A",
     "title": "채널A",
     "uris": [
-      "https://sogne-live.tving.com/cha/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjA4MTQsInN1YiI6Ii9jaGEvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.rirfpDPZ6kT0DDe27sacDvfyu-JMphxkNKLxNn4k1rg&ads.age=0&ads.asn=199524&ads.channel_code=C01583&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001764353&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/cha/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk1MTUsInN1YiI6Ii9jaGEvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.qrelbRPO2kEb9AFdcDGGJHUWYQI1bcuYcVw5ZACcwDQ&ads.age=0&ads.asn=199524&ads.channel_code=C01583&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P000089385&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -98,9 +102,10 @@
     "name": "tvN",
     "title": "tvN",
     "uris": [
-      "https://tvn-skcdn.tving.com/tvn/live2000.smil/chunklist_b2128000.m3u8?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly90dm4tc2tjZG4udHZpbmcuY29tL3R2bi9saXZlMjAwMC5zbWlsKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Mjg2MDQ5MX0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_&Signature=QwcdwSyNPR-bdpOYo5U1SKQBjazOiQXXzlnHBrNjYSTYvqIhhBWjNic~uOIss1hSyY307xJ8uJPgwaf-wAhO41wcISqJEiUisIPgEdyfKbqWPqFHNugGUQjrohoUIMAv225PmfWOQbxwxpEsPmLOW4EJ4OrYepg8zwHLyYwY6-onKp6gWxnL9mAufXmeBJODmdrlzDzCocVsRCJyK4nEXgUgqSLHZ17hkXHjt0xODs5AeeP~HcNbybdv1XyvhupZ2dve6dn9Q4oTUw8P7uRznhmvIuEs8sjc~jy1W0fY2-td7TvAfp3RJ3aRvshwhmO-~E7esRs4M7g~k4cckQTPFA__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA&pf=chrome%20headless_2.17.30_hlsjs&xr=60&vc=1%2C3&osn=linux&osv=aarch64&dvm=PC&brn=Chrome%20Headless&brv=120.0.6099.28&pln=Hls.js&plv=2.17.30&ads.product_id=www.tving.com"
+      "https://tvn-mcdn.tving.com/tvn/live2000.smil/chunklist_b2128000.m3u8"
     ],
     "headers": {
+      "cookie": "CloudFront-Key-Pair-Id=APKAIXCIJCFRGOUEZDWA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly90dm4tbWNkbi50dmluZy5jb20vdHZuL2xpdmUyMDAwLnNtaWwqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzcyODc5MTkzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__;CloudFront-Signature=WZ13hVuELBiWmQwSuGH11RIH~AtYRZJ-cF2MO2rZF7hghXkA6dHtIWfcBq3aDyy7IK50NsAw0SYmkx8ZoAPCHcCPKGoqyA-lL-kWqwxGnxhLkChSsgwn2Xx3unVDoDWrTQ85e8jzJcAJHzMtQfihZoLUoyJBy4ourigNJIPfnpxPsP54~nIpTI2zgyAq0q4A~mBPlvqLOCofeydrRilnLXuU~6eDETRfmkhvfuvWwZFJF1fi7K1dBhC2y3yJjbvwxKUdDz-RifHMnPhRBKU3ZZXDG5wk7yUKwREEqt4Uk2dEahXBh599maJo4Nc4hBVOE6l-XGRWBWbPvJPKOfuz3A__;",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
     }
   },
@@ -110,7 +115,7 @@
     "name": "Mnet",
     "title": "Mnet",
     "uris": [
-      "https://sogne-live.tving.com/mnet/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjExMzYsInN1YiI6Ii9tbmV0LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.Mj0Y8GQlxbafBHxIKNqc83evW9EFBENPTrgl9KDspkw&ads.age=0&ads.asn=199524&ads.channel_code=C00579&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P09213&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/mnet/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk4MzcsInN1YiI6Ii9tbmV0LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.YgJUKDkyz5z9PxlRDWHc0Mny1dwROxy7D167qUavZf0&ads.age=0&ads.asn=199524&ads.channel_code=C00579&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001781342&ads.targeting=1&ads.targeting_group=ALL_TOP20&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -143,7 +148,7 @@
     "name": "YTN2",
     "title": "YTN2",
     "uris": [
-      "https://sogne-live.tving.com/ytnw/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjAwMjAsInN1YiI6Ii95dG53LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.s4NSaC8t1nI9FfxTmplbPdrKP_MQDOc_P9UINqGle8k&ads.age=0&ads.asn=199524&ads.channel_code=C01101&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P000058704&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/ytnw/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzg3MTYsInN1YiI6Ii95dG53LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.wO_y-uzRf9vxhceNhpbikJl28jD7ZkE1O55PWd0881E&ads.age=0&ads.asn=199524&ads.channel_code=C01101&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0300&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001782816&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -158,7 +163,7 @@
       "https://ytns-live-mcdn.tving.com/ytns/live2000.smil/medialist_12498461171292152190_hls.m3u8"
     ],
     "headers": {
-      "cookie": "CloudFront-Key-Pair-Id=APKAIXCIJCFRGOUEZDWA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly95dG5zLWxpdmUtbWNkbi50dmluZy5jb20veXRucy9saXZlMjAwMC5zbWlsKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Mjg1MzQ3N30sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_;CloudFront-Signature=e1P98zAR9FIPwsZA91RBMu9KTn0xivgNd4DaENY5-dlAMjIUxCvArMvesQ14zUI~gbeB0PM6f0V~p08tvGkkEUrIokQGlMGCYhSpe-dCOYJWaPdeKfxCI36SIjAHNlaFhiq1-SSFpCUZBuXafABxBLILIbvx0Bd~R5BDwa-dVUfdx3uoBZnyGzsOFKVHJOa6W3lbQVu610ISvBQ9k5c8Ae97cHP96azfrVrdrS2aXFzrLFPh38jdWyU7XgTC3-2CrCDYfpUYVb~iqpwQi4Q6rOXVEsvxxYe1tFTwbO2Dq-dEQyaI3j6WFsfqj5oPCiHhyGNPtKkaxYqc-1rs1eZRyQ__;",
+      "cookie": "CloudFront-Key-Pair-Id=APKAIXCIJCFRGOUEZDWA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly95dG5zLWxpdmUtbWNkbi50dmluZy5jb20veXRucy9saXZlMjAwMC5zbWlsKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Mjg3ODc5NX0sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_;CloudFront-Signature=bJwF9y4T0hyVCSrhe1Oj~sP5vyzPIQGA0C9z-t0HGV6m~FuLQLlUlxfTaP4JvZFzBL7X4S90vwvsudymSI6tXbvwYlux1qieFCev63F~jTI0PYvowrdddxGC9Q51hdqxUQ0u3F2jBWu8263mYsArdYuL3-LGV0dEh2S49JVX3z9SeisObAEBdyMhIXMVQMWHYka1lUccMGRLqKxjBVhrtKL6FPX2fyAljO7T7nbVnjLkpG5JRsnhNerwmQfXsfaAY0haTHoeilw6WGmqMEs9mJvnTKyukH7D2b4j-UL3TzWGmBpp9gBXJBXuoJbS2gWEETTw4FezhTrISNT~um-chA__;",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
     }
   },
@@ -168,7 +173,7 @@
     "name": "연합뉴스TV",
     "title": "연합뉴스TV",
     "uris": [
-      "https://sogne-live.tving.com/yonhap/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjAxNzMsInN1YiI6Ii95b25oYXAvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.zUziC952PBsfD8-Ioe0Ds8ZAOikvU5dLRchA2BdAVM0&ads.age=0&ads.asn=199524&ads.channel_code=C01723&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001756665&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/yonhap/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzg4NzksInN1YiI6Ii95b25oYXAvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.q6rO8qPzTM8GxT87U31VZEITv607jqMPL353Les5JOI&ads.age=0&ads.asn=199524&ads.channel_code=C01723&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001539405&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -180,7 +185,7 @@
     "name": "JTBC2",
     "title": "JTBC2",
     "uris": [
-      "https://sogne-live.tving.com/jtbc2/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjAzMzksInN1YiI6Ii9qdGJjMi8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.pa-ZNezRc8_Ef-g1GP3iMuWw2y8QZeRqPbwuw8XZr68&ads.age=0&ads.asn=199524&ads.channel_code=C15741&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001760343&ads.targeting=1&ads.targeting_group=ALL_TOP20&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/jtbc2/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NzkwMzgsInN1YiI6Ii9qdGJjMi8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.5lbIa6zUyZt2JLbUBwKCDDY3jn2C4h0QySUG9U4LSns&ads.age=0&ads.asn=199524&ads.channel_code=C15741&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001760343&ads.targeting=1&ads.targeting_group=ALL_TOP20&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -192,7 +197,7 @@
     "name": "JTBC4",
     "title": "JTBC4",
     "uris": [
-      "https://sogne-live.tving.com/jtbc4/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjA0MTcsInN1YiI6Ii9qdGJjNC8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.53aoPTVo8qqb0zCQ0sWromkO9qsoysJ41jOjfDbmRUM&ads.age=0&ads.asn=199524&ads.channel_code=C22041&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001710496&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/jtbc4/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NzkxMTgsInN1YiI6Ii9qdGJjNC8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.MkgwNUivFp4DxbJQOQ-pJVpu9VpGEXdDvYDMgjYCPA8&ads.age=0&ads.asn=199524&ads.channel_code=C22041&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001764477&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -204,7 +209,7 @@
     "name": "tvN SHOW",
     "title": "tvN SHOW",
     "uris": [
-      "https://sogne-live.tving.com/tvnshow/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjA1ODAsInN1YiI6Ii90dm5zaG93LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.JP2jk9_i8a9KTTYZie5yoZDPZxosphdCmtHvSO9LUns&ads.age=0&ads.asn=199524&ads.channel_code=C01141&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001279758&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/tvnshow/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NzkyNzcsInN1YiI6Ii90dm5zaG93LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.sYki9oBRDjnHLbwzyPcciq-VonXDxGT3VcNo_pmh3w4&ads.age=0&ads.asn=199524&ads.channel_code=C01141&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P000643144&ads.targeting=1&ads.targeting_group=ALL_TOP20&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -216,7 +221,7 @@
     "name": "tvN DRAMA",
     "title": "tvN DRAMA",
     "uris": [
-      "https://sogne-live.tving.com/tvndrama/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjA2NjEsInN1YiI6Ii90dm5kcmFtYS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.4PK3em-FJtO1cT4lrBF8uKM5zeSMo2c14ujrKISV0Es&ads.age=0&ads.asn=199524&ads.channel_code=C01143&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001749924&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/tvndrama/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NzkzNTYsInN1YiI6Ii90dm5kcmFtYS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.Be9hpyDGJomZydDuijAo28xK8IPj36rqIAp4__PIiOw&ads.age=0&ads.asn=199524&ads.channel_code=C01143&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001749924&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -228,7 +233,7 @@
     "name": "tvN STORY",
     "title": "tvN STORY",
     "uris": [
-      "https://sogne-live.tving.com/tvnstory/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjA3MzYsInN1YiI6Ii90dm5zdG9yeS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.AnaQiGS_XjEHl104r7ZGN9cM0zcByElc51NoIL0zqzk&ads.age=0&ads.asn=199524&ads.channel_code=C51258&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001392765&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/tvnstory/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk0MzUsInN1YiI6Ii90dm5zdG9yeS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.5UZbRqeqANUqfBwJ_o96HJ9SLi36wHLNH0hbHuVT7dQ&ads.age=0&ads.asn=199524&ads.channel_code=C51258&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001780196&ads.targeting=1&ads.targeting_group=ALL_TOP20&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -240,7 +245,7 @@
     "name": "채널A플러스",
     "title": "채널A플러스",
     "uris": [
-      "https://sogne-live.tving.com/chaplus/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjA4OTEsInN1YiI6Ii9jaGFwbHVzLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.Deh4-Pfa9AGIz_s66slmi4x0576H3JL8XAccBPJiI4M&ads.age=0&ads.asn=199524&ads.channel_code=C17141&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001752507&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/chaplus/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk1OTQsInN1YiI6Ii9jaGFwbHVzLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.BswQh5TsarMsSydN4XstkLgS6YycywTTMq2suWDI_A0&ads.age=0&ads.asn=199524&ads.channel_code=C17141&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001752507&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -252,7 +257,7 @@
     "name": "TV CHOSUN 2",
     "title": "TV CHOSUN 2",
     "uris": [
-      "https://sogne-live.tving.com/chosun2/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjEwNTAsInN1YiI6Ii9jaG9zdW4yLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.nMAFXZYDOJNnJIp2fScMsa5Tll4Ov46wsHkP62EoRwk&ads.age=0&ads.asn=199524&ads.channel_code=C00585&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001758476&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/chosun2/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk3NTUsInN1YiI6Ii9jaG9zdW4yLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.0MiyqBArRyktTsDZApWph8rmO2OpJYR91DU4VVv-Rfs&ads.age=0&ads.asn=199524&ads.channel_code=C00585&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001644798&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -264,7 +269,7 @@
     "name": "MBN 플러스",
     "title": "MBN 플러스",
     "uris": [
-      "https://sogne-live.tving.com/mbnplus/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjEyOTYsInN1YiI6Ii9tYm5wbHVzLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.1LZlvj2dYQhs72hIKWvH4walvmAq4tirfS0bJ7KJesc&ads.age=0&ads.asn=199524&ads.channel_code=C17142&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001783291&ads.targeting=1&ads.targeting_group=ALL_TOP20&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/mbnplus/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4Nzk5OTUsInN1YiI6Ii9tYm5wbHVzLyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.liOtDhqORgSIv_qdLxEjJHr5KFG6io7pMj-7K0bPPeY&ads.age=0&ads.asn=199524&ads.channel_code=C17142&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001780542&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -276,7 +281,7 @@
     "name": "LIFETIME",
     "title": "LIFETIME",
     "uris": [
-      "https://sogne-live.tving.com/lifetime/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjEzNzMsInN1YiI6Ii9saWZldGltZS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.RaY1iItpATKPW8ItzAl_A1pihFhu0nuE_JV2IYyt2uk&ads.age=0&ads.asn=199524&ads.channel_code=C00611&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001782945&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/lifetime/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4ODAwODEsInN1YiI6Ii9saWZldGltZS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.JHmnwwC5-HPMUTRYFC_2HFWCN8TwFhpHE14RG5wSjHQ&ads.age=0&ads.asn=199524&ads.channel_code=C00611&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001743173&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -288,7 +293,7 @@
     "name": "중화TV",
     "title": "중화TV",
     "uris": [
-      "https://sogne-live.tving.com/zhtv/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjE0NTMsInN1YiI6Ii96aHR2LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.lg9Fu0Ezjk7jtT16wmRGOIkpnj9CY34ZvoqwHEbA0oQ&ads.age=0&ads.asn=199524&ads.channel_code=C00544&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001548255&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/zhtv/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4ODAxNjMsInN1YiI6Ii96aHR2LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.nocrs234O7jxPXvqmC7_gYA-vPrH3ZI-oEuxmd4GX0Q&ads.age=0&ads.asn=199524&ads.channel_code=C00544&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001223841&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -300,7 +305,56 @@
     "name": "히스토리",
     "title": "히스토리",
     "uris": [
-      "https://sogne-live.tving.com/history/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4NjE1MjgsInN1YiI6Ii9oaXN0b3J5LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.mOE7EjahSewIpvpTzPx2ouno7P6vp5bOZkUgcYEhREY&ads.age=0&ads.asn=199524&ads.channel_code=C17341&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001758324&ads.targeting=1&ads.tier_group=non_tier"
+      "https://sogne-live.tving.com/history/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4ODAyNDMsInN1YiI6Ii9oaXN0b3J5LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.UaBRK2HzgHWACBa4JEuctwSgmldXmM8lzCDu3wBBWUE&ads.age=0&ads.asn=199524&ads.channel_code=C17341&ads.floor_price=8000&ads.gender=2&ads.grade_code=CPTG0400&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001392765&ads.targeting=1&ads.tier_group=non_tier"
+    ],
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "group": "한국",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/국회방송(NATV).png",
+    "name": "국회방송(NATV)",
+    "title": "국회방송(NATV)",
+    "uris": [
+      "https://sogne-live.tving.com/natv/live.smil/medialist_12498461171292152190_hls.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4ODA0MDEsInN1YiI6Ii9uYXR2LyoiLCJ2eHIiOjYwMCwiZHJtIjpmYWxzZSwid21pIjoiIiwic2NjIjoiQ1NTRDAxMDAiLCJvc2MiOiJDU09EMDkwMCIsImRtdCI6InN0IiwiaXNwIjoiRy1Db3JlIExhYnMgU0EiLCJtZGwiOiJsaW51eF9jaHJvbWUgaGVhZGxlc3NfMTIwLjAuNjA5OS4yOCJ9.vAHKae-FQPnUNcoo8205Nnj0KYMNEUWpnijynIMGaU8&ads.age=0&ads.asn=199524&ads.channel_code=C51263&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0100&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001780224&ads.targeting=1&ads.tier_group=non_tier"
+    ],
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "group": "한국",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/ANIBOX.png",
+    "name": "ANIBOX",
+    "title": "ANIBOX",
+    "uris": [
+      "https://anibox-live-mcdn.tving.com/anibox/live2000.smil/medialist_12498461171292152190_hls.m3u8"
+    ],
+    "headers": {
+      "cookie": "CloudFront-Key-Pair-Id=APKAIXCIJCFRGOUEZDWA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly9hbmlib3gtbGl2ZS1tY2RuLnR2aW5nLmNvbS9hbmlib3gvbGl2ZTIwMDAuc21pbCoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzI4ODA0Nzd9LCJJcEFkZHJlc3MiOnsiQVdTOlNvdXJjZUlwIjoiMC4wLjAuMC8wIn19fV19;CloudFront-Signature=FUl4GfRYqEiCGeIUaKUjMc5wC48QjKgVLh2yQ~rFXTAEXqBZsBGP-gMa7LkJ2dt-3nQiRnSwk4AmdALHrkzAZG7h5f5Dy2dnfFInQC3BS44gPNObOnCHqO0p82a686MAKuuWTrHUWc7l6W1S88VQ8pOXWvmiagDvH125OqiUzwgytm5-GTgoHzCqHVdE7Rwkruf2jH0UMfE3-ZY3B4tVtRKeTuxe-8ZDZS8vUHUiVa-UYK2k~A8EzWpJG834BN3RLvnXhxkX3FDNqZiRwS8jtJNKPVGffyioBh9p4jVBUDlzUGqmvz5sBssw9isW2m2KvrFca9DZlCCIoHvyioC40w__;",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "group": "한국",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/애니맥스.png",
+    "name": "애니맥스",
+    "title": "애니맥스",
+    "uris": [
+      "https://sogne-live.tving.com/animax/live5000.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4ODA1NTQsInN1YiI6Ii9hbmltYXgvKiIsInZ4ciI6NjAwLCJkcm0iOmZhbHNlLCJ3bWkiOiIiLCJzY2MiOiJDU1NEMDEwMCIsIm9zYyI6IkNTT0QwOTAwIiwiZG10Ijoic3QiLCJpc3AiOiJHLUNvcmUgTGFicyBTQSIsIm1kbCI6ImxpbnV4X2Nocm9tZSBoZWFkbGVzc18xMjAuMC42MDk5LjI4In0.Af8TSlKB8iNmp_rj3F_nC3SxwGigmXj-GtIWoWjC0fs&ads.age=0&ads.asn=199524&ads.channel_code=C04042&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0300&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001779354&ads.targeting=1&ads.tier_group=non_tier"
+    ],
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "group": "한국",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/투니버스.png",
+    "name": "투니버스",
+    "title": "투니버스",
+    "uris": [
+      "https://sogne-live.tving.com/tooni/live.smil/chunklist_b2128000.m3u8?sgn.pf=chrome%20headless_2.17.30_hlsjs&sgn.osn=linux&sgn.osv=aarch64&sgn.brn=Chrome%20Headless&sgn.brv=120.0.6099.28&sgn.pln=Hls.js&sgn.plv=2.17.30&sgn.dvm=PC&sgn._sb=1&sgn._cn=ostream-mcdn&sgn.token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4ODA2MzYsInN1YiI6Ii90b29uaS8qIiwidnhyIjo2MDAsImRybSI6ZmFsc2UsIndtaSI6IiIsInNjYyI6IkNTU0QwMTAwIiwib3NjIjoiQ1NPRDA5MDAiLCJkbXQiOiJzdCIsImlzcCI6IkctQ29yZSBMYWJzIFNBIiwibWRsIjoibGludXhfY2hyb21lIGhlYWRsZXNzXzEyMC4wLjYwOTkuMjgifQ.1fwyC9Oc1TUgW6yOUZPNI22pCn_J6FxBn4Mz-lH-2Zs&ads.age=0&ads.asn=199524&ads.channel_code=C06941&ads.floor_price=7900&ads.gender=2&ads.grade_code=CPTG0300&ads.is_kids_content=false&ads.product_id=www.tving.com&ads.profile_no=272799212&ads.program_code=P001780737&ads.targeting=1&ads.tier_group=non_tier"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -375,7 +429,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MDUsInBhdGgiOiIvc2JzcGx1czIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIyZmQ3NTU5Mi00NzIwLTQ1YWUtYjlhMS1jMWY1YTgzNjljMWIiLCJpYXQiOjE3NzI3OTEyMDV9.e8lgfbtiP4IJaFKnnWKQHaivL0j2Cuw1KFr-jHGEGaY"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIxOTQsInBhdGgiOiIvc2JzcGx1czIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI4M2QwNmU3NS0xYTFiLTQ2NDMtODZlMi1jMjk1N2Y0MjdiYzMiLCJpYXQiOjE3NzI3OTQ5OTR9.4jWiOzWvXS78H17r74HqMHKRAO0BeMXfX-d6YpZ5zFk"
     ]
   },
   {
@@ -384,7 +438,7 @@
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MTEsInBhdGgiOiIvc2JzZXR2Mi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjJlZmUxZDZjLWFjOTItNDg2Ni05NGQxLTBhN2ZjNzk3NWNhNSIsImlhdCI6MTc3Mjc5MTIxMX0.f1peiuSVVZdT4gTLa6C7Qb4ChklnAdarqs765XgqcQg"
+      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIyMDEsInBhdGgiOiIvc2JzZXR2Mi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjlhZWI3NWRkLTYyMGMtNDdlNy05OTYxLTQyYzdiZDVjMmVjZCIsImlhdCI6MTc3Mjc5NTAwMX0.dGk2Jp43uuBit4veY1dfjgrtA7wKrnx-zanRn4aiko0"
     ]
   },
   {
@@ -393,7 +447,7 @@
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsfil/sbsfil2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MTQsInBhdGgiOiIvc2JzZmlsMi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjUyZDQ0MWQwLTJiYTMtNGQ1My1hYzY0LTJmNDIwNzYzYzgxMyIsImlhdCI6MTc3Mjc5MTIxNH0.YHD3t4s4lgQbRkkoYYTTCWdGGIEY9sjiXEMlZ142M4o"
+      "https://tvlive.sbs.co.kr/sbsfil/sbsfil2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIyMDQsInBhdGgiOiIvc2JzZmlsMi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImVhMTQ1NzlkLWYyMzktNGZmNC1iNzU4LTRiNTFkM2U3ZDVmMSIsImlhdCI6MTc3Mjc5NTAwNH0.eUYwTr_-nTcSYftlnUu3OCjmmC7uMhtEqiyPk0BydbA"
     ]
   },
   {
@@ -402,7 +456,7 @@
     "name": "SBS KPOP",
     "title": "SBS KPOP",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbskpop/sbskpop2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MjcsInBhdGgiOiIvc2Jza3BvcDIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI2ZGZlYmQ5YS01NDkwLTQzMzQtYTg0MC02YmY3MDkzNmFlMGEiLCJpYXQiOjE3NzI3OTEyMjd9.zv4I8Zpo0guCPMGx5peNcJ1-KsxXDWRAQxcNP-ERPmU"
+      "https://tvlive.sbs.co.kr/sbskpop/sbskpop2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIyMTcsInBhdGgiOiIvc2Jza3BvcDIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI0MjNiN2I4Yi1mMmU2LTQzNDItOGE0Yi1jM2JkMjAxY2ZhZDUiLCJpYXQiOjE3NzI3OTUwMTd9.mIWNpPARpgpaRHrbLZRtJDkqWrLX7zHyilFRuKGdG5c"
     ]
   },
   {
@@ -411,7 +465,7 @@
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MjEsInBhdGgiOiIvc2JzZ29sZjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJiNWY4YTlmNS1iOGRlLTRmZTEtOTBkYS00NzA5YWI5OWNkNGIiLCJpYXQiOjE3NzI3OTEyMjF9.iSb8NU_H9bxXJFouqM6gksBw-84owdGKQSgfCT8kU2E"
+      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIyMTAsInBhdGgiOiIvc2JzZ29sZjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJhM2QxYWI2Zi1lMmNmLTQ2OTMtYjY0Ni00ZjgyN2Q2NDkwNmYiLCJpYXQiOjE3NzI3OTUwMTB9.SHH9QYLGwPu2CCsZJUbVEsf73QLOqOe5egIcEcWZceM"
     ]
   },
   {
@@ -420,7 +474,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf22.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MjQsInBhdGgiOiIvc2JzZ29sZjIyLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiODRhZTMwZWQtYWJkNS00MWQ4LWI4MWEtMDY0NWQ0NThmODAwIiwiaWF0IjoxNzcyNzkxMjI0fQ.Qzg4aAX9wSu32k46V8iTGj-GLrGzn3O0xSbhrnxjzJY"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf22.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIyMTQsInBhdGgiOiIvc2JzZ29sZjIyLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiZTdhNGM5Y2QtMTkwZS00ZTgzLTk4N2UtYjY3M2Q1ZDYwM2UyIiwiaWF0IjoxNzcyNzk1MDE0fQ.RCxz7vW3MBJT-j86HX5rIJhljqZVDUUs2uObFDvPAHg"
     ]
   },
   {
@@ -438,7 +492,7 @@
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3OTg0MDgsInBhdGgiOiIvc2JzY25iYzIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJiYzNhMzI0Yy0zZjdlLTQ3Y2QtYWY1Zi1iYzE4NWYzNDNlYTEiLCJpYXQiOjE3NzI3OTEyMDh9.4PWEy-2IYCpnijUbsci-9ujOgcFECcZNgFM7fjb-edY"
+      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI4MDIxOTgsInBhdGgiOiIvc2JzY25iYzIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI4NTkwZmUwMy02YjljLTRiN2EtYmNlZi03MTExYjA0NGUyODkiLCJpYXQiOjE3NzI3OTQ5OTh9.JZjB3eK1gk-YWQFrLkyKed08-TQlP8UrzEtJrHBlTS4"
     ]
   },
   {
