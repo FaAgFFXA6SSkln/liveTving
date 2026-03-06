@@ -161,6 +161,7 @@
       "https://ytns-live-mcdn.tving.com/ytns/live2000.smil/medialist_12498461171292152190_hls.m3u8"
     ],
     "headers": {
+      "cookie": "CloudFront-Key-Pair-Id=APKAIXCIJCFRGOUEZDWA;CloudFront-Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Iio6Ly95dG5zLWxpdmUtbWNkbi50dmluZy5jb20veXRucy9saXZlMjAwMC5zbWlsKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3Mjg1MzQ3N30sIklwQWRkcmVzcyI6eyJBV1M6U291cmNlSXAiOiIwLjAuMC4wLzAifX19XX0_;CloudFront-Signature=e1P98zAR9FIPwsZA91RBMu9KTn0xivgNd4DaENY5-dlAMjIUxCvArMvesQ14zUI~gbeB0PM6f0V~p08tvGkkEUrIokQGlMGCYhSpe-dCOYJWaPdeKfxCI36SIjAHNlaFhiq1-SSFpCUZBuXafABxBLILIbvx0Bd~R5BDwa-dVUfdx3uoBZnyGzsOFKVHJOa6W3lbQVu610ISvBQ9k5c8Ae97cHP96azfrVrdrS2aXFzrLFPh38jdWyU7XgTC3-2CrCDYfpUYVb~iqpwQi4Q6rOXVEsvxxYe1tFTwbO2Dq-dEQyaI3j6WFsfqj5oPCiHhyGNPtKkaxYqc-1rs1eZRyQ__;",
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
     }
   },
@@ -425,7 +426,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MDUsInBhdGgiOiIvc2JzcGx1czIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI3NmFlMmRlNi1mYmI0LTQ3YmEtOWMxYy0zNjNiMDRlZTc2YzciLCJpYXQiOjE3NzI3NjI0MDV9.9508Oc_63oynvIfR31wWjGA_1R3I4QuqDRPFeIQsyVc"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MDUsInBhdGgiOiIvc2JzcGx1czIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJmNWE5NmVjNS04NGFlLTQwNmEtOWM0My1lMmNjNzk0OTg2NTgiLCJpYXQiOjE3NzI3Njk2MDV9._fop-zlPih5kMzeIj2KjQ5vkSqdTHovGD-ZKSYeBoHM"
     ]
   },
   {
@@ -434,7 +435,7 @@
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MTEsInBhdGgiOiIvc2JzZXR2Mi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjFlNmY1YzdmLWNiMDQtNDZkYS1hMmEwLTYyMTgzOGMyYmU4OSIsImlhdCI6MTc3Mjc2MjQxMX0.cnXUIVyn6UYbw34HevZgL5XzccMqjK4l2d8CyXPIevo"
+      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MTIsInBhdGgiOiIvc2JzZXR2Mi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjRjNzgzZTFhLWVkZjktNGRlNi04YTEyLWQyMWNjZjk3OWFiYiIsImlhdCI6MTc3Mjc2OTYxMn0.9oj7JYJLa7CVHPc7aKeLM82lcF9VUmcHnggCycYa8DI"
     ]
   },
   {
@@ -443,7 +444,7 @@
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsfil/sbsfil2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MTQsInBhdGgiOiIvc2JzZmlsMi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjdiN2FlNzYwLTA3ODktNDlkZi1iYWU0LWRhNDAyZmYxYTEzNyIsImlhdCI6MTc3Mjc2MjQxNH0.LTwx2dSLhkG2pBd4SP5I8eXVe0JZgqI3wV2_93d8zRs"
+      "https://tvlive.sbs.co.kr/sbsfil/sbsfil2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MTUsInBhdGgiOiIvc2JzZmlsMi5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjhkZDgxYjFmLTEyNTctNGM4Ny1iYjA4LWYwODgyNDRkMzhjNCIsImlhdCI6MTc3Mjc2OTYxNX0.n4NjxdHL0ecLwJlS-DFWaZAUW-uCGX-v0i8cxsqMoSw"
     ]
   },
   {
@@ -452,7 +453,7 @@
     "name": "SBS KPOP",
     "title": "SBS KPOP",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbskpop/sbskpop2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MjcsInBhdGgiOiIvc2Jza3BvcDIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJiNDgwYzkzNC0zZWU4LTQyYzQtYjkwZS02OTczMzU1ZDBhODQiLCJpYXQiOjE3NzI3NjI0Mjd9.YdXDkJBe7WixBoI9x3VEQ6OjfZAvMhs6L6gkfNNdOKA"
+      "https://tvlive.sbs.co.kr/sbskpop/sbskpop2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MjgsInBhdGgiOiIvc2Jza3BvcDIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIxYzM4ZmMzNy0xZmNhLTQwZGQtYWFkYy02NDNjZTFjZWE0MjkiLCJpYXQiOjE3NzI3Njk2Mjh9.1YfCMx3X-Gjv8qjlB6xlb9UiBi1WfUraX0Dg8eytckk"
     ]
   },
   {
@@ -461,7 +462,7 @@
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MjEsInBhdGgiOiIvc2JzZ29sZjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI4YjkwMThhNS1kNDFjLTRhY2YtYTQxZS0zYzBjZTE2ZjE5ZGMiLCJpYXQiOjE3NzI3NjI0MjF9.IFhP_3GeDcEaqJLy9l-jK2c-a23fTQ5ztIAGa5tAaPE"
+      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MjEsInBhdGgiOiIvc2JzZ29sZjIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIzZjJmMWZlMC00N2YzLTQ5ZDItOWQyMy1jMTljMTZkNjg3Y2EiLCJpYXQiOjE3NzI3Njk2MjF9.ILJp8_vg3GgOJHsvavgDKiMDw3-tFysBV_z820Txfjk"
     ]
   },
   {
@@ -470,7 +471,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf22.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MjQsInBhdGgiOiIvc2JzZ29sZjIyLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMzU3OGY2NjItNjgzMy00M2Q3LTkxZDEtMjYyYWYyNWY4Nzc3IiwiaWF0IjoxNzcyNzYyNDI0fQ.CIyBovdaLyA4TvIA9KSGX4-WprUy5yhvQs17VzG9ydE"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf22.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MjUsInBhdGgiOiIvc2JzZ29sZjIyLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMTczNDNjYWYtNDQ5Ny00YWZhLWE1MWYtYjAwMTM2YmZkNzY2IiwiaWF0IjoxNzcyNzY5NjI1fQ.e4C830yBDCsDzKuKnIkHip80-c5aYl0EZoVjQ6QneXs"
     ]
   },
   {
@@ -488,7 +489,7 @@
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3Njk2MDgsInBhdGgiOiIvc2JzY25iYzIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJmNzQ0YmRmOC0xMDFhLTQyZGEtYTI1OS1mYzQzM2FmOTc1ZDUiLCJpYXQiOjE3NzI3NjI0MDh9.GRbSEP29HSYTixg0B8CbTZW-xL4wCOVsxHTbwwunWjk"
+      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc2.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzI3NzY4MDgsInBhdGgiOiIvc2JzY25iYzIuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJiODY3MjZkYi1iYWEyLTRhNmYtOWI3ZS1kZGE4ZGJiYTM2NjciLCJpYXQiOjE3NzI3Njk2MDh9.A_-VcCxw1X_sodl4nt2mtJDaNKcCF2oQCvWU_PmazDk"
     ]
   },
   {
