@@ -51,7 +51,11 @@ def main():
             item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
 
         if item.get("name") == "SBS":
-            item["uris"] = ["https://1.214.67.206/vod/50401.m3u8?VOD_RequestID="]
+            item["uris"] = ["https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzUwMTk2MDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImE5MWEwN2I4LTVmODAtNDA3ZS1hODUzLTVkNjFkNzljOTYxMSIsImlhdCI6MTc3NTAxMjQwMn0.eTZ-r1VMM0vjZmr3w7KhrBpPACgVrzHXvEGKqWlhs5I"]
+            #온에어주소
+            #https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzUwMTk2MDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImE5MWEwN2I4LTVmODAtNDA3ZS1hODUzLTVkNjFkNzljOTYxMSIsImlhdCI6MTc3NTAxMjQwMn0.eTZ-r1VMM0vjZmr3w7KhrBpPACgVrzHXvEGKqWlhs5I
+            #IPTV주소
+            #https://1.214.67.206/vod/50401.m3u8?VOD_RequestID=
 
         if item.get("name") == "YTN":
             item["uris"] = ["https://1.214.67.206/vod/69801.m3u8?VOD_RequestID="]
