@@ -5,7 +5,8 @@ permissions:
 
 on:
   schedule:
-    - cron: '10 * * * *'   # 매시간 10분
+    - cron: '*/5 * * * *'   # 5분마다 실행
+    
   workflow_dispatch:
 
 jobs:
