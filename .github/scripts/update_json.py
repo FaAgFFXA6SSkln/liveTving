@@ -91,6 +91,7 @@ def main():
         key=lambda x: priority_titles.index(x.get("title"))
     )
 
+'''
     # 6. SPOTV 항목 삽입 (logo 규칙 동일 적용)
     spotv_item = {
         "group": "한국",
@@ -107,8 +108,18 @@ def main():
         if item.get("title") != "SPOTV"
     ]
 
+
     # 7. 최종 조합
     final_list = priority_items + [spotv_item] + other_items
+'''
+
+    other_items = [
+        item for item in other_items
+        if item.get("title") != "SPOTV"
+    ]
+
+    # 7. 최종 조합
+    final_list = priority_items + other_items
 
     # 8. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
