@@ -122,15 +122,6 @@
   },
   {
     "group": "한국",
-    "name": "SPOTV",
-    "title": "SPOTV",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SPOTV.png",
-    "uris": [
-      "https://1.214.67.206/vod/66701.m3u8?VOD_RequestID="
-    ]
-  },
-  {
-    "group": "한국",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/YTN.png",
     "name": "YTN",
     "title": "YTN",
@@ -451,15 +442,6 @@
   },
   {
     "group": "한국",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS KPOP.png",
-    "name": "SBS KPOP",
-    "title": "SBS KPOP",
-    "uris": [
-      "https://tvlive.sbs.co.kr/sbskpop/sbskpop1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzUxNDkyMzYsInBhdGgiOiIvc2Jza3BvcDEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJjZmViODVjZi1iZDBhLTQzY2EtYWM2Mi1lM2MyMDhmNjQyOWQiLCJpYXQiOjE3NzUxNDIwMzZ9.cyWEpaMZvQLZ9O9Ldcqx9B962SU30_5XgnuLCblzUDc"
-    ]
-  },
-  {
-    "group": "한국",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/SBS골프.png",
     "name": "SBS골프",
     "title": "SBS골프",
@@ -564,24 +546,6 @@
     "title": "ABN",
     "uris": [
       "https://vod2.abn.co.kr/IPHONE/abn.m3u8"
-    ]
-  },
-  {
-    "group": "한국",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/농협TV.png",
-    "name": "농협TV",
-    "title": "농협TV",
-    "uris": [
-      "http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8"
-    ]
-  },
-  {
-    "group": "한국",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/복지TV.png",
-    "name": "복지TV",
-    "title": "복지TV",
-    "uris": [
-      "https://cdnlive179.smartucc.kr/smartlive/312/46324be24454bd98f785039457ac695d/playlist.m3u8"
     ]
   },
   {
