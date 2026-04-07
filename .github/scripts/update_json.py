@@ -20,6 +20,9 @@ priority_titles = [
     "Mnet"
 ]
 
+# ❗ 삭제할 채널 목록
+remove_titles = ["SBS KPOP", "농협TV", "복지TV"]
+
 def main():
     r = requests.get(SOURCE_URL, timeout=15)
     r.raise_for_status()
@@ -29,7 +32,7 @@ def main():
     if not isinstance(data, list):
         raise RuntimeError("JSON root is not a list")
 
-    # 1. 필터링
+    # 1. 필터링 + 삭제 채널 제거
     filtered = [
         item for item in data
         if isinstance(item, dict)
@@ -37,6 +40,7 @@ def main():
         and "한국" in item["group"]
         and item.get("title", "") != "test"
         and "한국영화" not in item.get("title", "")
+        and item.get("title") not in remove_titles   # ✅ 추가된 부분
     ]
 
     # 2. group 문자열 통일 + 이름 치환
@@ -49,13 +53,6 @@ def main():
 
         if item.get("name") == "MBC":
             item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
-
-        #if item.get("name") == "SBS":
-            #item["uris"] = ["https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzUwMTk2MDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImE5MWEwN2I4LTVmODAtNDA3ZS1hODUzLTVkNjFkNzljOTYxMSIsImlhdCI6MTc3NTAxMjQwMn0.eTZ-r1VMM0vjZmr3w7KhrBpPACgVrzHXvEGKqWlhs5I"]
-            #온에어주소
-            #https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NzUwMTk2MDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImE5MWEwN2I4LTVmODAtNDA3ZS1hODUzLTVkNjFkNzljOTYxMSIsImlhdCI6MTc3NTAxMjQwMn0.eTZ-r1VMM0vjZmr3w7KhrBpPACgVrzHXvEGKqWlhs5I
-            #IPTV주소
-            #https://1.214.67.206/vod/50401.m3u8?VOD_RequestID=
 
         if item.get("name") == "YTN":
             item["uris"] = ["https://1.214.67.206/vod/69801.m3u8?VOD_RequestID="]
@@ -91,29 +88,12 @@ def main():
         key=lambda x: priority_titles.index(x.get("title"))
     )
 
+    # ❌ SPOTV 관련 코드 완전 제거
 
-    # 6. SPOTV 항목 삽입 (logo 규칙 동일 적용)
-    spotv_item = {
-        "group": "한국",
-        "name": "SPOTV",
-        "title": "SPOTV",
-        "logo": f"{LOGO_BASE_URL}/SPOTV.png",
-        "uris": [
-            "https://1.214.67.206/vod/66701.m3u8?VOD_RequestID="
-        ]
-    }
+    # 6. 최종 조합
+    final_list = priority_items + other_items
 
-    other_items = [
-        item for item in other_items
-        if item.get("title") != "SPOTV"
-    ]
-
-
-    # 7. 최종 조합
-    final_list = priority_items + [spotv_item] + other_items
-
-
-    # 8. 저장
+    # 7. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
