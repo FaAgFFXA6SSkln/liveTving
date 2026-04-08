@@ -93,6 +93,38 @@ def main():
     # 6. 최종 조합
     final_list = priority_items + other_items
 
+    # 6-1. 하단 추가 채널 목록
+    extra_channels = [
+        ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
+        ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
+        ("GM TV 국민방송", "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="),
+
+        ("홈&쇼핑", "http://1.214.67.210/vod/64901.m3u8?VOD_RequestID="),
+        ("Cj onstyle", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
+        ("ns 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
+        ("롯데홈쇼핑", "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="),
+        ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
+        ("GS SHOP", "http://1.214.67.210/vod/67601.m3u8?VOD_RequestID="),
+        ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),
+        ("현대홈쇼핑+", "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="),
+        ("더블유쇼핑", "http://1.214.67.210/vod/81301.m3u8?VOD_RequestID="),
+    ]
+
+    # 6-2. 중복 방지 (기존 title 기준)
+    existing_titles = {item.get("title") for item in final_list}
+
+    for name, uri in extra_channels:
+        if name in existing_titles:
+            continue
+
+        final_list.append({
+            "group": "한국",
+            "name": name,
+            "title": name,
+            "logo": f"{LOGO_BASE_URL}/{name}.png",
+            "uris": [uri]
+        })
+
     # 7. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
