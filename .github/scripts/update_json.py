@@ -99,9 +99,9 @@ def main():
     extra_channels = [
         ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
         ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
-        ("GM TV 국민방송", "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="),
+        ("GMTV", "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="),
         ("홈&쇼핑", "http://1.214.67.210/vod/64901.m3u8?VOD_RequestID="),
-        ("Cj 온스타일", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
+        ("CJ 온스타일", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
         ("NS 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
         ("롯데홈쇼핑", "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="),
         ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
