@@ -21,7 +21,7 @@ priority_titles = [
 ]
 
 # ❗ 삭제할 채널 목록
-remove_titles = ["SBS KPOP", "농협TV", "복지TV"]
+remove_titles = ["SBS KPOP", "농협TV", "복지TV", "문화유산채널"]
 
 def main():
     r = requests.get(SOURCE_URL, timeout=15)
@@ -47,9 +47,8 @@ def main():
     for item in filtered:
         item["group"] = "한국"
 
-        if item.get("name") == "문화유산채널" and item.get("title") == "문화유산채널":
-            item["name"] = "국가유산채널"
-            item["title"] = "국가유산채널"
+        if item.get("name") == "SBS":
+            item["uris"] = ["http://1.222.207.80:1935/live/cjbtv/chunklist_w1909627462.m3u8"]
 
         if item.get("name") == "MBC":
             item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
@@ -59,6 +58,9 @@ def main():
 
         if item.get("name") == "TV CHOSUN":
             item["uris"] = ["https://1.214.67.206/vod/74601.m3u8?VOD_RequestID="]
+
+        if item.get("name") == "KBS2":
+            item["uris"] = ["http://1.214.67.210/vod/50201.m3u8?VOD_RequestID="]
 
     # 3. 중복 제거 (title 기준)
     seen_titles = set()
@@ -98,10 +100,9 @@ def main():
         ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
         ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
         ("GM TV 국민방송", "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="),
-
         ("홈&쇼핑", "http://1.214.67.210/vod/64901.m3u8?VOD_RequestID="),
-        ("Cj onstyle", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
-        ("ns 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
+        ("Cj 온스타일", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
+        ("NS 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
         ("롯데홈쇼핑", "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="),
         ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
         ("GS SHOP", "http://1.214.67.210/vod/67601.m3u8?VOD_RequestID="),
