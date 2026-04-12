@@ -23,6 +23,20 @@ priority_titles = [
 # ❗ 삭제할 채널 목록
 remove_titles = ["SBS KPOP", "농협TV", "복지TV", "문화유산채널"]
 
+
+# ✅ KBS m3u8 가져오기 함수
+def get_kbs_stream(ch_code):
+    try:
+        url = f"https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/{ch_code}"
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        return data["channel_item"][0]["service_url"]
+    except Exception as e:
+        print(f"KBS({ch_code}) 가져오기 실패:", e)
+        return None
+
+
 def main():
     r = requests.get(SOURCE_URL, timeout=15)
     r.raise_for_status()
@@ -40,10 +54,10 @@ def main():
         and "한국" in item["group"]
         and item.get("title", "") != "test"
         and "한국영화" not in item.get("title", "")
-        and item.get("title") not in remove_titles   # ✅ 추가된 부분
+        and item.get("title") not in remove_titles
     ]
 
-    # 2. group 문자열 통일 + 이름 치환
+    # 2. group 통일 + URI 수정
     for item in filtered:
         item["group"] = "한국"
 
@@ -59,10 +73,18 @@ def main():
         if item.get("name") == "TV CHOSUN":
             item["uris"] = ["https://1.214.67.206/vod/74601.m3u8?VOD_RequestID="]
 
-        if item.get("name") == "KBS2":
-            item["uris"] = ["http://1.214.67.210/vod/50201.m3u8?VOD_RequestID="]
+        # ✅ KBS 동적 처리
+        if item.get("name") == "KBS1":
+            url = get_kbs_stream(11)
+            if url:
+                item["uris"] = [url]
 
-    # 3. 중복 제거 (title 기준)
+        if item.get("name") == "KBS2":
+            url = get_kbs_stream(12)
+            if url:
+                item["uris"] = [url]
+
+    # 3. 중복 제거
     seen_titles = set()
     unique_filtered = []
     for item in filtered:
@@ -71,12 +93,12 @@ def main():
             unique_filtered.append(item)
             seen_titles.add(title)
 
-    # 4. logo 강제 덮어쓰기
+    # 4. logo 덮어쓰기
     for item in unique_filtered:
         title = item.get("title", "")
         item["logo"] = f"{LOGO_BASE_URL}/{title}.png"
 
-    # 5. priority / 기타 분리
+    # 5. priority 분리
     priority_items = []
     other_items = []
 
@@ -90,12 +112,10 @@ def main():
         key=lambda x: priority_titles.index(x.get("title"))
     )
 
-    # ❌ SPOTV 관련 코드 완전 제거
-
-    # 6. 최종 조합
+    # 6. 최종 리스트
     final_list = priority_items + other_items
 
-    # 6-1. 하단 추가 채널 목록
+    # 6-1. 하단 추가 채널
     extra_channels = [
         ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
         ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
@@ -105,13 +125,12 @@ def main():
         ("NS 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
         ("롯데홈쇼핑", "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="),
         ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
-        ("GS SHOP", "http://1.214.67.210/vod/67601.m3u8?VOD_RequestID="),
-        ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),
         ("현대홈쇼핑+", "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="),
+        ("GS SHOP", "http://1.214.67.210/vod/67601.m3u8?VOD_RequestID="),
+        ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),        
         ("더블유쇼핑", "http://1.214.67.210/vod/81301.m3u8?VOD_RequestID="),
     ]
 
-    # 6-2. 중복 방지 (기존 title 기준)
     existing_titles = {item.get("title") for item in final_list}
 
     for name, uri in extra_channels:
@@ -130,7 +149,8 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
-    print(f"{len(data)} -> {len(final_list)} items (filtered, deduped, reordered)")
+    print(f"{len(data)} -> {len(final_list)} items 완료")
+
 
 if __name__ == "__main__":
     main()
