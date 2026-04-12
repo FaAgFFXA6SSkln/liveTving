@@ -20,25 +20,39 @@ priority_titles = [
     "Mnet"
 ]
 
-# ❗ 삭제할 채널 목록
 remove_titles = ["SBS KPOP", "농협TV", "복지TV", "문화유산채널"]
 
 
-# ✅ KBS m3u8 가져오기 함수
+# ✅ 공용 세션 (Agent 역할)
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "Referer": "https://onair.kbs.co.kr/",
+    "Accept": "application/json, text/plain, */*"
+})
+
+
+# ✅ KBS 스트림 가져오기
 def get_kbs_stream(ch_code):
     try:
         url = f"https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/{ch_code}"
-        r = requests.get(url, timeout=10)
+
+        r = session.get(url, timeout=10)
         r.raise_for_status()
+
         data = r.json()
-        return data["channel_item"][0]["service_url"]
+        stream = data["channel_item"][0]["service_url"]
+
+        print(f"[KBS {ch_code}] 성공:", stream)
+        return stream
+
     except Exception as e:
-        print(f"KBS({ch_code}) 가져오기 실패:", e)
+        print(f"[KBS {ch_code}] 실패:", e)
         return None
 
 
 def main():
-    r = requests.get(SOURCE_URL, timeout=15)
+    r = session.get(SOURCE_URL, timeout=15)
     r.raise_for_status()
 
     data = r.json()
@@ -46,7 +60,7 @@ def main():
     if not isinstance(data, list):
         raise RuntimeError("JSON root is not a list")
 
-    # 1. 필터링 + 삭제 채널 제거
+    # 1. 필터링
     filtered = [
         item for item in data
         if isinstance(item, dict)
@@ -57,7 +71,7 @@ def main():
         and item.get("title") not in remove_titles
     ]
 
-    # 2. group 통일 + URI 수정
+    # 2. 수정
     for item in filtered:
         item["group"] = "한국"
 
@@ -78,11 +92,15 @@ def main():
             url = get_kbs_stream(11)
             if url:
                 item["uris"] = [url]
+            else:
+                item["uris"] = ["FAILED_KBS1"]
 
         if item.get("name") == "KBS2":
             url = get_kbs_stream(12)
             if url:
                 item["uris"] = [url]
+            else:
+                item["uris"] = ["FAILED_KBS2"]
 
     # 3. 중복 제거
     seen_titles = set()
@@ -93,12 +111,12 @@ def main():
             unique_filtered.append(item)
             seen_titles.add(title)
 
-    # 4. logo 덮어쓰기
+    # 4. 로고 적용
     for item in unique_filtered:
         title = item.get("title", "")
         item["logo"] = f"{LOGO_BASE_URL}/{title}.png"
 
-    # 5. priority 분리
+    # 5. 정렬
     priority_items = []
     other_items = []
 
@@ -112,10 +130,9 @@ def main():
         key=lambda x: priority_titles.index(x.get("title"))
     )
 
-    # 6. 최종 리스트
     final_list = priority_items + other_items
 
-    # 6-1. 하단 추가 채널
+    # 6. 하단 채널
     extra_channels = [
         ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
         ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
@@ -149,7 +166,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
-    print(f"{len(data)} -> {len(final_list)} items 완료")
+    print(f"{len(data)} -> {len(final_list)} 완료")
 
 
 if __name__ == "__main__":
