@@ -14,7 +14,7 @@
     "name": "KBS2",
     "title": "KBS2",
     "uris": [
-      "http://1.214.67.210/vod/50201.m3u8?VOD_RequestID="
+      "https://live-th10.myjktv.com:443/watch/live.m3u8?video=kbs2_540&sid=AyMBt8STQi7J8FnSd0PeQSXX6kQBHrmnVJljjl8w&secret=b232cc97122ea9f507475b72065f7562&time=1765891904"
     ]
   },
   {
@@ -677,6 +677,15 @@
   },
   {
     "group": "한국",
+    "name": "현대홈쇼핑+",
+    "title": "현대홈쇼핑+",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/현대홈쇼핑+.png",
+    "uris": [
+      "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="
+    ]
+  },
+  {
+    "group": "한국",
     "name": "GS SHOP",
     "title": "GS SHOP",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/GS SHOP.png",
@@ -691,15 +700,6 @@
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/GS MY SHOP.png",
     "uris": [
       "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="
-    ]
-  },
-  {
-    "group": "한국",
-    "name": "현대홈쇼핑+",
-    "title": "현대홈쇼핑+",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/현대홈쇼핑+.png",
-    "uris": [
-      "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="
     ]
   },
   {
