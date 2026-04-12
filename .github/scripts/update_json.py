@@ -93,14 +93,19 @@ def main():
             if url:
                 item["uris"] = [url]
             else:
-                item["uris"] = ["FAILED_KBS1"]
+                #item["uris"] = ["FAILED_KBS1"]
+                item["uris"] = ["http://1.214.67.210/vod/50101.m3u8?VOD_RequestID="]
+                
 
         if item.get("name") == "KBS2":
             url = get_kbs_stream(12)
             if url:
                 item["uris"] = [url]
             else:
-                item["uris"] = ["FAILED_KBS2"]
+                #item["uris"] = ["FAILED_KBS2"]
+                item["uris"] = ["http://1.214.67.210/vod/50201.m3u8?VOD_RequestID="]
+                
+
 
     # 3. 중복 제거
     seen_titles = set()
