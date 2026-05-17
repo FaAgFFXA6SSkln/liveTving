@@ -88,14 +88,6 @@ def main():
             item["uris"] = ["https://1.214.67.206/vod/74601.m3u8?VOD_RequestID="]
 
         # ✅ KBS 동적 처리
-        if item.get("name") == "KBS1":
-            url = get_kbs_stream(11)
-            if url:
-                item["uris"] = [url]
-            else:
-                #item["uris"] = ["FAILED_KBS1"]
-                item["uris"] = ["http://1.214.67.210/vod/50101.m3u8?VOD_RequestID="]
-                
 
         if item.get("name") == "KBS2":
             url = get_kbs_stream(12)
