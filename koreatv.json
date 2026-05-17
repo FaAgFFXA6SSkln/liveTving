@@ -23,7 +23,7 @@
     "name": "KBS1",
     "title": "KBS1",
     "uris": [
-      "http://1.214.67.210/vod/50101.m3u8?VOD_RequestID="
+      "https://1tv.gscdn.kbs.co.kr/1tv_3.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xdHYuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3NzkxNzAzNDB9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=W2rpAhVeMjqrRGGHWT7UhbQ1tCtlB~ILaWLah15-K~wPDhTiocmbrT5tXo~j4hlx5F9f5pTTZ2x6a52~G9aNhlHomXoUwwz6lOl5oyBQi-jfYKQ8durXCxO6ZOgua0fXzSEhLPdHPUPnW2~-fJWdkuNCJC019YYmeD5a-sNW6PXCtrc430LFobmB~rf4DDOWU126Pel6gMhHiA1J~n~-tvgq1HHLgpz3mg8tk6ZZxJeWFOzHItX8MxMYUaJl6HSOYVsiaJuWM5r4-l~umVJMrEkvfHfCgc89Ca~FeHUgNO2uvexW2cjjnZKhTVd7pvvgb2j4HwF~Ktq8SwPpnGnCyw__"
     ]
   },
   {
