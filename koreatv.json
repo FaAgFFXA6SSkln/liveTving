@@ -428,7 +428,7 @@
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Nzk2NjM2MTYsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjI0NDhkNjQ2LTQ5NWYtNDAxZi1hODQyLTdiNjk3NGIzNjM2ZiIsImlhdCI6MTc3OTY1NjQxNn0.r3fV0iLngBCRrE090STNeqxjzVYN0D6MSMUBmCdYJY0"
+      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Nzk2NjcyMjYsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjNjNzQxMDRiLThmMjQtNDQ5Ni04OGUxLTEyMzJmNjEzZjIxNyIsImlhdCI6MTc3OTY2MDAyNn0.uvdA--zywiQ_4DfX9f9xZvx1pSv-7LMYPXuBe-3goGw"
     ]
   },
   {
@@ -437,7 +437,7 @@
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Nzk2NjM2MTksInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjYwNmY0ZTBmLTFlMTQtNDRhMC05ZTAwLTA0ZWM5MjYxZmU2YiIsImlhdCI6MTc3OTY1NjQxOX0.WHLNmuNzIFUKnIFS4XBiFoGqE7Uy_Y57qASceka3ijo"
+      "https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Nzk2NjcyMjksInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjRlMDJiYjQyLTJkNWYtNDUwMC1hOWExLWFlZmIzMGExMjdjNSIsImlhdCI6MTc3OTY2MDAyOX0.kV4c3EWnqDkFgzMbWYdyu4_4O6KD-plJ61njTn7isV8"
     ]
   },
   {
@@ -455,7 +455,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Nzk2NjAwNDMsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiNjc5NzNhZjUtMDI3NS00ZjAyLTgzNDktYmYwMmJiMTE0YWRjIiwiaWF0IjoxNzc5NjUyODQzfQ.hmerW_16ipaEi142tHwkMfT3FuCDXptBCzKpR1FuKN8"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Nzk2NjcyNDksInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMDg4M2E5MDgtNmEwZC00MTEzLTgwYjgtNWY1ZGU2M2ExNDRlIiwiaWF0IjoxNzc5NjYwMDQ5fQ.FPnOTPR0emelpb12n9__hxkUPGD1IqpKmWw8GvURly4"
     ]
   },
   {
