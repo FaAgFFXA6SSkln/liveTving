@@ -416,7 +416,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NDg4MDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIxMjcxZDJkOC0yZTYxLTQwM2UtOTU4MS1jODY4MDc3NTA3NjAiLCJpYXQiOjE3ODQ1NDE2MDV9.mAPnaINqmxnbZouqqBKRy16if9EDiKH3MDlYixvYdIg"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTk2MDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIxZTc3MTE1My03MTI5LTRhNjMtOGVhOC1hYzkwMjA2ZmQzMjMiLCJpYXQiOjE3ODQ1NTI0MDV9.6XOwJB4n45vkqrw7soBUyiXm3h20HsUgEMYXqX1eZbA"
     ]
   },
   {
@@ -425,7 +425,7 @@
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NDg4MTEsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjQ0MDE1MTYxLWJhMDctNDJjMi04N2NiLWJlMzMwNDE3ODVmOSIsImlhdCI6MTc4NDU0MTYxMX0.tw7kR4juEBxfLmb3oCvlF2Ho439T7rAAcjtjBGqM_3I"
+      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTk2MTIsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6Ijg0MmZhZWQyLTMzMWItNGE1Ny04YThkLTEwYzJmODQ3Mjg5ZiIsImlhdCI6MTc4NDU1MjQxMn0.cI2kUuU2LuVIqwGsZH9bCCWEEnYeWMxFbnEauTG0H1k"
     ]
   },
   {
@@ -434,7 +434,7 @@
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NDg4MTQsInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImJlZjIzYTUxLWVhMTgtNGNkMi1hNWMyLTc5YTQ2Y2ZiMzhhOSIsImlhdCI6MTc4NDU0MTYxNH0.WM-SAlGXR8vmrIiWJxLOMtPfqkYnf10thh3bkCVea5E"
+      "https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTk2MTUsInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjMyOTBkMGU1LTFhNmQtNGNjOS1iNmRmLTYzNzI1OTdjNjIyYSIsImlhdCI6MTc4NDU1MjQxNX0.6k2bzTfH7oxDX7agliSFID3K2XQnsgjacuwxIkoegOk"
     ]
   },
   {
@@ -443,7 +443,7 @@
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTYxMDksInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI2ZTZkMjc4Mi1mNTJhLTQ5MWEtOGY1My04ZjNkYjdmYWFmYTkiLCJpYXQiOjE3ODQ1NDg5MDl9.SY3sHF8BiWMvZ_hBXSt8t2BrZNW7KHI9zOqkJNiSdjo"
+      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTk2MjIsInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI5Njg4MjY5Ny1kOGNkLTRiNmYtYTVlNi01NDA2Mjg2NjI0NmMiLCJpYXQiOjE3ODQ1NTI0MjJ9.Etu9KF7DtwI40YiFSgafYb_CxqHjoojhsH7JCLDDMQA"
     ]
   },
   {
@@ -452,7 +452,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTYxMTMsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiOTc4OWQ1YTAtZTZjNy00NjE5LWEwMTctM2NhN2ZkM2I3YTFmIiwiaWF0IjoxNzg0NTQ4OTEzfQ.rivOaBQ9mZj6_6I7SMcq_Or3lqaJtcFiOZ3oXbhCmbs"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTk2MjUsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiYWU1MmU1ZDEtNjc4NC00Mjg2LWE4NjYtZjZjNDkzM2VhY2QzIiwiaWF0IjoxNzg0NTUyNDI1fQ.7AWLCz4f-CE_YjoAuF4kKH6Mfm6HMzrcQ_nwEkI5cvY"
     ]
   },
   {
@@ -470,7 +470,7 @@
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NDg4MDgsInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIyMmFiNGZmOC1hMjQzLTRmYWEtODFhMS0xNjJhOWIzZWMyNjAiLCJpYXQiOjE3ODQ1NDE2MDh9.y80YvPb08TbkSaqDtZaS74ZtRHhRgze9ZlIVXzvzhnA"
+      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODQ1NTk2MDksInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJmODgzYmVkZi02NzBmLTRmY2EtYmQwOS0yNWU1NWNiNDQ4NjgiLCJpYXQiOjE3ODQ1NTI0MDl9.zG3b2J6k59Jvm_tcIEGfclBaReoaBQTsMLi_fUDaoQ8"
     ]
   },
   {
