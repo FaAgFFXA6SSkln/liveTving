@@ -416,7 +416,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODU0OTU2MDQsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJhNDEyMWZmMi1hMmY0LTRkNjQtOTJlNi1mZGExYzc2ZDIzYzUiLCJpYXQiOjE3ODU0ODg0MDR9.FNvBoUtvIfvBbyLLNQdq0_lU7SEmvbaBLoCU31SVARs"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODU0OTkyMDksInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI0OTY0YWUwZC0wYTliLTQwMjctODEzNy04ODFiZjZkMjI2MjciLCJpYXQiOjE3ODU0OTIwMDl9.w9Ka2_ojiBZ26RO74CZvPbKwoz_aBOPrEuhcabpx-mA"
     ]
   },
   {
@@ -443,7 +443,7 @@
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODU0OTU2MjAsInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIzNTNiM2ZjNy1hOGI5LTQzNTktODAzOC1jMTZlNTI2MmE4NGYiLCJpYXQiOjE3ODU0ODg0MjB9.40umNYpkd7-CW5ilUeNgr5mAy49RxYvLJWbo5iaLejw"
+      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODU1MDI4NTAsInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIzNzU0OTQ5My1jMzdkLTQ1MzUtYjBjMC1iM2RkODYxMDE1ZGQiLCJpYXQiOjE3ODU0OTU2NTB9.nEif_PszS83X-1Gbx0GjuDu93pH-cAPdYNtKlKH6FNo"
     ]
   },
   {
@@ -452,7 +452,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODU0OTU2MjQsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiYWFmOTFmMjgtODhmNC00Y2M3LTkxM2UtYmUxZDk1ZWZiMzViIiwiaWF0IjoxNzg1NDg4NDI0fQ.NDpCLPzAia224GDagvNHCF_easu3643YjQPxT_TD4b8"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODU1MDI4NTMsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMmY5OWYzYjgtNGFjNS00ZTAyLTg3OTItNTM5MDI5ODNmZTg1IiwiaWF0IjoxNzg1NDk1NjUzfQ.NqyKLH3hAs3oh_Z1kWjieAUrMAb6IRe8pfiwHWYJFRQ"
     ]
   },
   {
