@@ -71,6 +71,8 @@ def main():
         and item.get("title") not in remove_titles
     ]
 
+
+"""
     # 2. 수정
     for item in filtered:
         item["group"] = "한국"
@@ -97,7 +99,7 @@ def main():
                 #item["uris"] = ["FAILED_KBS2"]
                 item["uris"] = ["http://1.214.67.210/vod/50201.m3u8?VOD_RequestID="]
                 
-
+"""
 
     # 3. 중복 제거
     seen_titles = set()
