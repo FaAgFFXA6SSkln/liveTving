@@ -22,33 +22,7 @@ priority_titles = [
 
 remove_titles = ["SBS KPOP", "농협TV", "복지TV", "문화유산채널"]
 
-
-# ✅ 공용 세션 (Agent 역할)
 session = requests.Session()
-session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Referer": "https://onair.kbs.co.kr/",
-    "Accept": "application/json, text/plain, */*"
-})
-
-
-# ✅ KBS 스트림 가져오기
-def get_kbs_stream(ch_code):
-    try:
-        url = f"https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/{ch_code}"
-
-        r = session.get(url, timeout=10)
-        r.raise_for_status()
-
-        data = r.json()
-        stream = data["channel_item"][0]["service_url"]
-
-        print(f"[KBS {ch_code}] 성공:", stream)
-        return stream
-
-    except Exception as e:
-        print(f"[KBS {ch_code}] 실패:", e)
-        return None
 
 
 def main():
@@ -71,37 +45,7 @@ def main():
         and item.get("title") not in remove_titles
     ]
 
-
-"""
-    # 2. 수정
-    for item in filtered:
-        item["group"] = "한국"
-
-        if item.get("name") == "SBS":
-            item["uris"] = ["http://1.222.207.80:1935/live/cjbtv/chunklist_w1909627462.m3u8"]
-
-        if item.get("name") == "MBC":
-            item["uris"] = ["https://stream.chmbc.co.kr/TV/myStream/chunklist_w641999880.m3u8"]
-
-        if item.get("name") == "YTN":
-            item["uris"] = ["https://1.214.67.206/vod/69801.m3u8?VOD_RequestID="]
-
-        if item.get("name") == "TV CHOSUN":
-            item["uris"] = ["https://1.214.67.206/vod/74601.m3u8?VOD_RequestID="]
-
-        # ✅ KBS 동적 처리
-
-        if item.get("name") == "KBS2":
-            url = get_kbs_stream(12)
-            if url:
-                item["uris"] = [url]
-            else:
-                #item["uris"] = ["FAILED_KBS2"]
-                item["uris"] = ["http://1.214.67.210/vod/50201.m3u8?VOD_RequestID="]
-                
-"""
-
-    # 3. 중복 제거
+    # 2. 중복 제거
     seen_titles = set()
     unique_filtered = []
     for item in filtered:
@@ -110,12 +54,12 @@ def main():
             unique_filtered.append(item)
             seen_titles.add(title)
 
-    # 4. 로고 적용
+    # 3. 로고 적용
     for item in unique_filtered:
         title = item.get("title", "")
         item["logo"] = f"{LOGO_BASE_URL}/{title}.png"
 
-    # 5. 정렬
+    # 4. 정렬
     priority_items = []
     other_items = []
 
@@ -131,7 +75,7 @@ def main():
 
     final_list = priority_items + other_items
 
-    # 6. 하단 채널
+    # 5. 하단 채널
     extra_channels = [
         ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
         ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
@@ -143,7 +87,7 @@ def main():
         ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
         ("현대홈쇼핑+", "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="),
         ("GS SHOP", "http://1.214.67.210/vod/67601.m3u8?VOD_RequestID="),
-        ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),        
+        ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),
         ("더블유쇼핑", "http://1.214.67.210/vod/81301.m3u8?VOD_RequestID="),
     ]
 
@@ -161,7 +105,7 @@ def main():
             "uris": [uri]
         })
 
-    # 7. 저장
+    # 6. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
