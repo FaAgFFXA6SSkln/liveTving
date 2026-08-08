@@ -20,12 +20,18 @@ priority_titles = [
     "Mnet"
 ]
 
-remove_titles = ["SBS KPOP", "농협TV", "복지TV", "문화유산채널"]
+remove_titles = [
+    "SBS KPOP",
+    "농협TV",
+    "복지TV",
+    "문화유산채널"
+]
 
 session = requests.Session()
 
 
 def main():
+    # 1. 외부 JSON 가져오기
     r = session.get(SOURCE_URL, timeout=15)
     r.raise_for_status()
 
@@ -34,9 +40,10 @@ def main():
     if not isinstance(data, list):
         raise RuntimeError("JSON root is not a list")
 
-    # 1. 필터링
+    # 2. 필터링
     filtered = [
-        item for item in data
+        item
+        for item in data
         if isinstance(item, dict)
         and "group" in item
         and "한국" in item["group"]
@@ -45,21 +52,28 @@ def main():
         and item.get("title") not in remove_titles
     ]
 
-    # 2. 중복 제거
+    # 3. 중복 제거
     seen_titles = set()
     unique_filtered = []
+
     for item in filtered:
         title = item.get("title", "")
+
         if title not in seen_titles:
             unique_filtered.append(item)
             seen_titles.add(title)
 
-    # 3. 로고 적용
+    # 4. group 및 로고 적용
     for item in unique_filtered:
         title = item.get("title", "")
+
+        # 모든 외부 채널의 group을 한국으로 통일
+        item["group"] = "한국"
+
+        # 로고 적용
         item["logo"] = f"{LOGO_BASE_URL}/{title}.png"
 
-    # 4. 정렬
+    # 5. 우선순위 정렬
     priority_items = []
     other_items = []
 
@@ -75,23 +89,26 @@ def main():
 
     final_list = priority_items + other_items
 
-    # 5. 하단 채널
+    # 6. 하단 추가 채널
     extra_channels = [
         ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
         ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
         ("GMTV", "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="),
-        ("홈&쇼핑", "http://1.214.67.210/vod/64901.m3u8?VOD_RequestID="),
+        ("홈&쇼핑", "https://s34.qtcdn.co.kr/media/liveM3U8/idx/710401216/enc/1728755331/playlist.m3u8"),
         ("CJ 온스타일", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
         ("NS 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
         ("롯데홈쇼핑", "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="),
         ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
         ("현대홈쇼핑+", "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="),
-        ("GS SHOP", "http://1.214.67.210/vod/67601.m3u8?VOD_RequestID="),
+        ("GS SHOP", "https://gstv-gsshop.gsshop.com/gsshop_hd/_definst_/gsshop_hd.stream/playlist.m3u8"),
         ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),
         ("더블유쇼핑", "http://1.214.67.210/vod/81301.m3u8?VOD_RequestID="),
     ]
 
-    existing_titles = {item.get("title") for item in final_list}
+    existing_titles = {
+        item.get("title")
+        for item in final_list
+    }
 
     for name, uri in extra_channels:
         if name in existing_titles:
@@ -105,9 +122,14 @@ def main():
             "uris": [uri]
         })
 
-    # 6. 저장
+    # 7. 저장
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_list, f, ensure_ascii=False, indent=2)
+        json.dump(
+            final_list,
+            f,
+            ensure_ascii=False,
+            indent=2
+        )
 
     print(f"{len(data)} -> {len(final_list)} 완료")
 
