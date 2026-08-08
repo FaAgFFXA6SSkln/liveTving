@@ -91,18 +91,17 @@ def main():
 
     # 6. 하단 추가 채널
     extra_channels = [
-        ("AsiaN", "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="),
-        ("Kstar", "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="),
-        ("GMTV", "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="),
         ("홈&쇼핑", "https://s34.qtcdn.co.kr/media/liveM3U8/idx/710401216/enc/1728755331/playlist.m3u8"),
-        ("CJ 온스타일", "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="),
-        ("NS 홈쇼핑", "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="),
-        ("롯데홈쇼핑", "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="),
-        ("현대홈쇼핑", "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="),
-        ("현대홈쇼핑+", "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="),
+        ("CJ 온스타일", "https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8"),
+        ("NS 홈쇼핑", "https://shoppstream.nsmall.com/IPHONE/mobile.m3u8"),
+        ("롯데홈쇼핑", "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8"),
+        ("현대홈쇼핑", "https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8"),
+        ("현대홈쇼핑+", "https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8"),
         ("GS SHOP", "https://gstv-gsshop.gsshop.com/gsshop_hd/_definst_/gsshop_hd.stream/playlist.m3u8"),
-        ("GS MY SHOP", "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="),
-        ("더블유쇼핑", "http://1.214.67.210/vod/81301.m3u8?VOD_RequestID="),
+        ("GS MY SHOP", "https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8"),
+        ("더블유쇼핑", "https://liveout.catenoid.net/live-05-wshopping/wshopping_1500k/playlist.m3u8"),
+        ("신세계 쇼핑", "https://liveout.catenoid.net/live-02-shinsegaetvshopping/shinsegaetvshopping_720p/playlist.m3u8"),
+        ("쇼핑엔티", "https://live.shoppingntmall.com/live/10011.m3u8")
     ]
 
     existing_titles = {
