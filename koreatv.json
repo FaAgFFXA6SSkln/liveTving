@@ -601,33 +601,6 @@
   },
   {
     "group": "한국",
-    "name": "AsiaN",
-    "title": "AsiaN",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/AsiaN.png",
-    "uris": [
-      "http://1.214.67.210/vod/65801.m3u8?VOD_RequestID="
-    ]
-  },
-  {
-    "group": "한국",
-    "name": "Kstar",
-    "title": "Kstar",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/Kstar.png",
-    "uris": [
-      "http://1.214.67.210/vod/66201.m3u8?VOD_RequestID="
-    ]
-  },
-  {
-    "group": "한국",
-    "name": "GMTV",
-    "title": "GMTV",
-    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/GMTV.png",
-    "uris": [
-      "http://1.214.67.210/vod/68801.m3u8?VOD_RequestID="
-    ]
-  },
-  {
-    "group": "한국",
     "name": "홈&쇼핑",
     "title": "홈&쇼핑",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/홈&쇼핑.png",
@@ -641,7 +614,7 @@
     "title": "CJ 온스타일",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/CJ 온스타일.png",
     "uris": [
-      "http://1.214.67.210/vod/67201.m3u8?VOD_RequestID="
+      "https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8"
     ]
   },
   {
@@ -650,7 +623,7 @@
     "title": "NS 홈쇼핑",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/NS 홈쇼핑.png",
     "uris": [
-      "http://1.214.67.210/vod/67301.m3u8?VOD_RequestID="
+      "https://shoppstream.nsmall.com/IPHONE/mobile.m3u8"
     ]
   },
   {
@@ -659,7 +632,7 @@
     "title": "롯데홈쇼핑",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/롯데홈쇼핑.png",
     "uris": [
-      "http://1.214.67.210/vod/67401.m3u8?VOD_RequestID="
+      "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8"
     ]
   },
   {
@@ -668,7 +641,7 @@
     "title": "현대홈쇼핑",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/현대홈쇼핑.png",
     "uris": [
-      "http://1.214.67.210/vod/67501.m3u8?VOD_RequestID="
+      "https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8"
     ]
   },
   {
@@ -677,7 +650,7 @@
     "title": "현대홈쇼핑+",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/현대홈쇼핑+.png",
     "uris": [
-      "http://1.214.67.210/vod/76001.m3u8?VOD_RequestID="
+      "https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8"
     ]
   },
   {
@@ -695,7 +668,7 @@
     "title": "GS MY SHOP",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/GS MY SHOP.png",
     "uris": [
-      "http://1.214.67.210/vod/74001.m3u8?VOD_RequestID="
+      "https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8"
     ]
   },
   {
@@ -704,7 +677,25 @@
     "title": "더블유쇼핑",
     "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/더블유쇼핑.png",
     "uris": [
-      "http://1.214.67.210/vod/81301.m3u8?VOD_RequestID="
+      "https://liveout.catenoid.net/live-05-wshopping/wshopping_1500k/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "한국",
+    "name": "신세계 쇼핑",
+    "title": "신세계 쇼핑",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/신세계 쇼핑.png",
+    "uris": [
+      "https://liveout.catenoid.net/live-02-shinsegaetvshopping/shinsegaetvshopping_720p/playlist.m3u8"
+    ]
+  },
+  {
+    "group": "한국",
+    "name": "쇼핑엔티",
+    "title": "쇼핑엔티",
+    "logo": "https://faagffxa6sskln.github.io/liveTving/ChannelLogo/쇼핑엔티.png",
+    "uris": [
+      "https://live.shoppingntmall.com/live/10011.m3u8"
     ]
   }
 ]
