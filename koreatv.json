@@ -5,7 +5,7 @@
     "name": "SBS",
     "title": "SBS",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODY5NzUyNjAsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImE3N2I0YjhlLTBlNDYtNDU1Ni05N2ViLTlkNDlkNjNjM2RhOCIsImlhdCI6MTc4Njk2ODA2MH0.L8E8OfycPxisV7idn8jxZb-ghwm4ikk5RoZstQnWKVQ"
+      "https://tistory1.daumcdn.net/tistory/2864460/skin/images/CATV_2_76142D8F1.m3u8"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "name": "KBS2",
     "title": "KBS2",
     "uris": [
-      "https://backup.760515.xyz/playlist/KBS2-playlist.m3u8"
+      "https://2tv.gscdn.kbs.co.kr/2tv_1.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8ydHYuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcxNDE3Njh9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=laQptKZMZROMZVEc0ZNhphe2ZqoWR2OBm153mc-Qg4mEZnSkNI-cbLdRjHhZHkGXIdpfRNZ04AuSeD8MWcP04TuJOEylJMDivit7bxaxiLJaIjTUPLbE20~WbHrVC5C1trJDxPiv8r98cDpZF0r~XsJGjuJlmm9lmEKOROndhSGHMclaeAQhmPeweiUUGQfjr1ji9EMuvX821wlniDFn6ntFUK5jPkUzRbutpBuV3yNUfrfodJ30a6ZV~p5bnlNp-ILrB2~WOLdG8OT7FWuVnRxywb5b1YfQ13HhKMmezdBOklYn7cK5Y2bF-oEHs1O9M3LK0FP6gb87VZvYjyEepw__"
     ]
   },
   {
@@ -23,7 +23,7 @@
     "name": "KBS1",
     "title": "KBS1",
     "uris": [
-      "https://backup.760515.xyz/playlist/KBS1-playlist.m3u8"
+      "https://1tv.gscdn.kbs.co.kr/1tv_3.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xdHYuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcxNDE3OTN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=VmWrjgSFlLRYJFmwMO6WvVp5TvWTF4ct-NkOp8GFtK3HzyCAg1vYy9~76ChovdL3Tt4zp7a3R3X6ww8Ik1gUZYQAmEwg3XgkfAf22gcdtHCIN1UrSR7oQNBreNBtgxL5TdOju383Tic7AhHivNrrYLm~sGkKT82LallmGPsrjtismCUpUOQGRezp-I7k04uIqjhKUJH-q2ybRBe7S~ZsCNHKGUAhStScnQ~It2MhxM1epu9na-SHMairsbK~xQMEX7c3Xc7KNOYnTr~s8wS97WbZ-WHLpuOtgqU63bGXz-gKcKSJMtEca~Wpf0tJGSNiIn1vr9u-J05eprOb9euXGw__"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "name": "MBC",
     "title": "MBC",
     "uris": [
-      "https://backup.760515.xyz/playlist/MBC-playlist.m3u8"
+      "https://tistory1.daumcdn.net/tistory/2864460/skin/images/CATV_3_2E9FD49B1.m3u8"
     ]
   },
   {
@@ -53,7 +53,7 @@
     "name": "JTBC",
     "title": "JTBC",
     "uris": [
-      "https://backup.760515.xyz/playlist/JTBC-playlist.m3u8"
+      "https://tistory1.daumcdn.net/tistory/2864460/skin/images/CATV_51_5D021B6D.m3u8"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -65,7 +65,7 @@
     "name": "TV CHOSUN",
     "title": "TV CHOSUN",
     "uris": [
-      "https://backup.760515.xyz/playlist/TV CHOSUN-playlist.m3u8"
+      "https://tistory1.daumcdn.net/tistory/2864460/skin/images/CATV_53_8022E63C.m3u8"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
@@ -89,7 +89,7 @@
     "name": "채널A",
     "title": "채널A",
     "uris": [
-      "https://backup.760515.xyz/playlist/채널A-playlist.m3u8"
+      "https://tistory1.daumcdn.net/tistory/2864460/skin/images/CATV_52_12C896BD.m3u8"
     ],
     "headers": {
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
