@@ -35,6 +35,7 @@ remove_titles = [
 # 특정 채널은 원본 JSON의 주소를 사용하지 않고
 # 여기에서 지정한 주소를 사용
 HARDCODED_URIS = {
+    """
     "KBS1": [
         "https://1tv.gscdn.kbs.co.kr/1tv_3.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly8xdHYuZ3NjZG4ua2JzLmNvLmtyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODcxNDE3OTN9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=VmWrjgSFlLRYJFmwMO6WvVp5TvWTF4ct-NkOp8GFtK3HzyCAg1vYy9~76ChovdL3Tt4zp7a3R3X6ww8Ik1gUZYQAmEwg3XgkfAf22gcdtHCIN1UrSR7oQNBreNBtgxL5TdOju383Tic7AhHivNrrYLm~sGkKT82LallmGPsrjtismCUpUOQGRezp-I7k04uIqjhKUJH-q2ybRBe7S~ZsCNHKGUAhStScnQ~It2MhxM1epu9na-SHMairsbK~xQMEX7c3Xc7KNOYnTr~s8wS97WbZ-WHLpuOtgqU63bGXz-gKcKSJMtEca~Wpf0tJGSNiIn1vr9u-J05eprOb9euXGw__"
     ],
@@ -58,6 +59,7 @@ HARDCODED_URIS = {
     "TV CHOSUN": [
         "https://tistory1.daumcdn.net/tistory/2864460/skin/images/CATV_53_8022E63C.m3u8"
     ]
+"""
 }
 
 
