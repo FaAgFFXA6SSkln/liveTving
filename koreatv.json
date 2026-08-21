@@ -5,7 +5,7 @@
     "name": "SBS",
     "title": "SBS",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODczMzE2MDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImFlNTUyNTRkLTRjZTAtNGQ3YS04NmVlLWFiYzFkNTQ3N2Y1OSIsImlhdCI6MTc4NzMyNDQwMn0.g4-gakeKZQrLQnSuVu41ISFJeH95JzhM9j3GUiYIZME"
+      "https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODczMzUyMDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImI2YjRmZTU2LTUxNGEtNGQ4Mi05ZjFkLWRjMzIxZDA1MTdlOCIsImlhdCI6MTc4NzMyODAwMn0.GVAIJn0OEkYJiiNMY89mMyOZpHYYX_JnkABzlDYAJfM"
     ]
   },
   {
@@ -416,7 +416,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODczMzE2MDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI5MjVlZTg1OS1mMmMzLTQzNzItYjdkNi1iM2Q0NmE2ZmU5MDEiLCJpYXQiOjE3ODczMjQ0MDV9.fgMOP8Zh9URb82KCcW_bZufdVhT3DhCFpnATcOoK8B0"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODczMzUyMDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJhZmZiYzc1My02ODkxLTRhZmUtYjc5ZS1hOGM1YTc1YmY2NzgiLCJpYXQiOjE3ODczMjgwMDV9.iWxG3-R1jSrf5lP8b_NzWjtTp7H84gVzm6mWOOjAT4o"
     ]
   },
   {
@@ -470,7 +470,7 @@
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODczMzE2MDgsInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIyMzcxMWYyNy1iYmRhLTQ1NDgtOTgwOC00YmQxYjE2MjI0ZWYiLCJpYXQiOjE3ODczMjQ0MDh9.k2dePEyPy7dIBFaiURdV3WD37D7Y1WoAcQ8cNAUAiGg"
+      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODczMzUyMDgsInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIzMzQyMDczZi01OTNiLTQ3MDItYjcxYS0yMzcyYjFmODAwOTgiLCJpYXQiOjE3ODczMjgwMDh9.oC_YjI2zikfaqk5RmNPVtIpiXXkmn3aORShiY52gUJY"
     ]
   },
   {
