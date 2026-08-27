@@ -5,7 +5,7 @@
     "name": "SBS",
     "title": "SBS",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDY4MDIsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjE0ZGM3N2ZkLTcwZTYtNGI0NC05ZjgwLWZmY2MyODM1OGI2NCIsImlhdCI6MTc4Nzc5OTYwMn0.0XgTNedtHtcO7MluEIzGr_3ANfpf3Lc535NnAKFGJtE"
+      "https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4NDY0MDEsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjI1MDE5YzkxLTc5YTUtNDViNi1iN2IxLWJmZmFiZTQ5NzkxMiIsImlhdCI6MTc4NzgzOTIwMX0.zqOD5fkr34zAtll1MZhokk5TJus8Ae0sQ4e2dcQkvRU"
     ]
   },
   {
@@ -353,7 +353,7 @@
     "name": "KBS드라마",
     "title": "KBS드라마",
     "uris": [
-      "https://kbsndrama.gscdn.kbs.co.kr/kbsndrama-02/kbsndrama-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuZHJhbWEuZ3NjZG4ua2JzLmNvLmtyL2tic25kcmFtYS0wMi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3OTYxNTQ5fX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=AL2CmOz-gCwFNNqjrCznJCWRh7jBjExp3Xn74h9mnoRGUvxNESz7qqB871TcAnImzpnQWSS1wiJxq9cN28xriGSP97Qj41xZ~yVZZXn9POUOlM3pIBFzPxZLw1Fn-JNXPNIeZ0w3qNOCxcK-RlYdyjTWIUlMj2Kr1sMKNpeFQGCOQf3~p~Wy6Natk4~HucGyElM9z4B5NKN6MI1xIOzsc8YYDxtT2hwNfRLtZOVFNLnTvMsCBtmzN~fdryOS3DKVRLmYw26CbNdnwpKsnm~Uk5JDfxBTsWTpqf~8cj6awNt4PquQt6BJ~vK4EgN2rafiMkzS-gzdzdyj0POrdRBX~Q__"
+      "https://kbsndrama.gscdn.kbs.co.kr/kbsndrama-02/kbsndrama-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuZHJhbWEuZ3NjZG4ua2JzLmNvLmtyL2tic25kcmFtYS0wMi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg4MDA0NzkxfX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=hi69gzez2SILOflRmCQEmO2chc4z0s3AOEClFp5IiowYXNV3fJaiI-G5qKw5w9Z5ChKDFyhDQzGJQksws9n6UVOjQHqnwx~YI5TA49Tb-VnZJovgQAK4uNnzEy-SJNgOUuxUQbR7rW5rQf6DIjocj-13vr4nUgqq9~sB958C7c4yuslDowGVXqWnJzLCxpg~h3cKBrooUwT4wsTp5pWdIOYkdlC4QSjM~er8zrCHHpPYB6y8MkMDhfv6TlIvxnTUVEtuLd9scEP0NnlL1PD42byZv0uGn6mXeF1eW8qcZCGNQYz0rBw7QR5X~aowHA8M53G~MYZX~sNsXUntHgr5rA__"
     ]
   },
   {
@@ -362,7 +362,7 @@
     "name": "KBS조이",
     "title": "KBS조이",
     "uris": [
-      "https://kbsnjoy.gscdn.kbs.co.kr/kbsnjoy-02/kbsnjoy-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuam95LmdzY2RuLmticy5jby5rci9rYnNuam95LTAyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc5NjE1NDl9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=JGHuv6V-jzvyDuAXGcaLRm8ct3jDbzZc9QDwIufQTA3JnnAbCKyAJtf2vEgFFFgodWb~5JY-EQN2zj-053DzJFGhOGGUfArYuJNGUNvYSxwFTDrODBOjevSKR~ehmqTAxO0~BnZwULXo35TKFhq0xxmA2nD2MeLLSH6gi0ob3WS4ogBK5E2Cejxu~zD4d1FnxnRS198Isza1I2Kj3o6zhXFIBPjXFjKKKsEOvbEJl2ZdUMG2gVLUzeYYIbvkT8K8Rc7cZ0ndVlP1kfFCLUKYjrQm~cUUs7guF6jtXVic31AGXJQAp9cYVkNJVD3mjD29t4gH6GXuAE-Vi2HxmNPIGQ__"
+      "https://kbsnjoy.gscdn.kbs.co.kr/kbsnjoy-02/kbsnjoy-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuam95LmdzY2RuLmticy5jby5rci9rYnNuam95LTAyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODgwMDQ3OTV9fX1dfQ__&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=W83pUcM50wZa7vKmPk5VAK0RS8~43k8NoMcdsypB7mQzfrMICEFBZy4LGff11Nhn829XdSjTKkqf99-mzVc2aeIbOQBKWhSGu3JGw44rvxqpHKKN1h89TooEXDgsFTZMJywMT0k6mony~UH4PCsj37W7K0-dmGHFNg8V3z1m5chodaEcqM3nx-4D1Spn3Jitfdjm5kyhzUopWUgiahYY4uWqFUALK-aE-T0X-n-60NKV38FEn850oW70RKQtz5lbDn9hX525DEWV2AsFbRKtI2hwwKt7TctEL9-DC-0yq4cpJxNacP0MWm93NNlMVc3fElWpN3LzQWiMYVjFViRDmg__"
     ]
   },
   {
@@ -371,7 +371,7 @@
     "name": "KBS키즈",
     "title": "KBS키즈",
     "uris": [
-      "https://kbsnkids.gscdn.kbs.co.kr/kbsnkids-02/kbsnkids-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNua2lkcy5nc2Nkbi5rYnMuY28ua3Iva2JzbmtpZHMtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4Nzk2MTUzNH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=Wj~DXNHCOCG7yUDcn36sK9XVb95wFbBASKvaV35-DGt6OmXsff~j7phq9ZcUSgpQYafIFWwDIQAtBnmGYFlnU4PcLupvvLZH1Q9g2SWyGsQrCwIrtiwgBn2ylq~PwNOt4IKOZYDa334b2fogegjrQJ4-LY~ulmlYERToDy8UbjAebb3~7W952xMBLT2kBBijFtpmoFWPADw04MHYczYWnWwPQDlJiJWDuJsXiWez6eM7CUy-IK5baA7EJMMuVhw5NWYdKbJZScWzCZvWwN4u8mOCfO0yA8ux4~EpRp8PKOS2Bh8-MMmq54VM3U-zifDTGq-k2CVVxEhT0Xjo69JzsQ__"
+      "https://kbsnkids.gscdn.kbs.co.kr/kbsnkids-02/kbsnkids-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNua2lkcy5nc2Nkbi5rYnMuY28ua3Iva2JzbmtpZHMtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4ODAwNDgwMH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=ZcX8tHNo-xZSQMY~ez2HwqGTPFB7xbuUrDJmgXubTk3~4hxEkc01VmxnlqK467gysiR8r-Ce08lKzoH6GEf0ym8sOxp~aRgJotaivfzNMy050eekD1td9-FgWBjTMTFpNiaignqX12oiscOuC3OgJCzpb0eBey1kNi8xsV0zkIHoaf~JO70zJvqcPtNTXsQEX5kqHYdejZPN8XwEo3Z9SRyhDn-3xvam6hjhikSY35AgEclSCywlVeeLV~99hH4kxOq7jgxGkwOkwHRHbie0mUFdUbKitq3qebQduMzLDQTICikBV8Y9vxb-maOAF1pg32eygeWMfwJCtRHtRWys5Q__"
     ]
   },
   {
@@ -380,7 +380,7 @@
     "name": "KBS LIFE",
     "title": "KBS LIFE",
     "uris": [
-      "https://kbsnlife.gscdn.kbs.co.kr/kbsnlife-01/kbsnlife-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNubGlmZS5nc2Nkbi5rYnMuY28ua3Iva2JzbmxpZmUtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4Nzk2MTUzM319fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=JdZ-pzwDyijsv7eWobk0tx22AIg-UU1-9e4GnP43kOlvERKjM9g~i4KXeH0mKlm9lGCW0-SPP~6M4dmoedZIIUT7bAffVR1HmmhcBZ2ujO5ltIsUNlE9mGNEyCoPWvwOlSIffBnjCmh3kvfFLj-gK79f5lz5dAxIPyeQOt8aAYV7ec-HXFi7oAvQZOrT2xDDYSqhIVI0tqV87RR4XS7u37ccBxOUfBddYEvOlcqITFW2t49VkaJvlXIyw-h8thYR3uLu0IXvOjREBmKh5dsLh0az2gheI7UuFKuv2NF3W6Z-iXvcBjdoG3n45XMLItIckCQwoY2qlmcPp7BOweViUQ__"
+      "https://kbsnlife.gscdn.kbs.co.kr/kbsnlife-01/kbsnlife-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNubGlmZS5nc2Nkbi5rYnMuY28ua3Iva2JzbmxpZmUtMDEvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4ODAwNDczN319fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=eapaLcoY6YfKk3~qmrqSoAZgWbgqGs7VuJV2BblmY5sop1CpUKV3O-x2aPqUJPMBSBFtf0xjibbYo8Ob5ehIWF6lVO8DbGptUeUUeWu4yv8YPGezNu33g8hGJGWocgJS0vJq2CMg4MinxoWY0KG7KAuKoXQMHzJsfGd3k9yEyZpDcau5m7SpcSn~l~F5guHPHJOOR3vQalKhiH8hhqY8NfDXF2tkAp17IZlaLmAq6KFGcixmWSnpZZOzvajvBi5cSc~g54DdkAPCRJ9lrcpu55DrkWpyqo6vdvoSCcKUVoca7uJu-51MYTJDZ2hW8qD7xelwo4~GRDOcPOsw4gmX8Q__"
     ]
   },
   {
@@ -389,7 +389,7 @@
     "name": "KBS Story",
     "title": "KBS Story",
     "uris": [
-      "https://kbsnw.gscdn.kbs.co.kr/kbsnw-02/kbsnw-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNudy5nc2Nkbi5rYnMuY28ua3Iva2JzbnctMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4Nzk2MTU2OH19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=Lq-w1bIru-z3YOhqurWIPemIapnwVcQC8Ju1B0YAv96M-QNE04mhx4TDyJmkg6vjrgbjHo0zGl7ImlMmgyT88fCX3aHqBN3QXpzD5kT0Zc4RIYAdAG75BAMw8bElMeTyl7x4S-kBVMSYIdqlfSW~qq8GwxAgAESTYMS2elOY3WL8863AbA39X0VygXVw4J~STUDHZzk-SCXkDErGmo55QqPK~FF7Kb0A6rjQsKAfSPGIntOgqkYlym4xwh8uAZegRZmekUKO8H-4MbOE0MWM9RJDPJJptnPJ4cBpp7jqN4-7Ix8r5WetMcn~2hOs84mi2MG7mV6COOKuuE2~W2D2-g__"
+      "https://kbsnw.gscdn.kbs.co.kr/kbsnw-02/kbsnw-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNudy5nc2Nkbi5rYnMuY28ua3Iva2JzbnctMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4ODAwNDczN319fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=DH8eI1oSWPFxjxiwO7t~MtIixrxhNcMMREPW57Ud9cgq~jdjMUa2Ekut5ShssqNQJ0grcx-3wrdTNmGDt1C7oiViJJIF18QxfjTD15wdzkaUBwG11mYV~Koqct7c1C13NhFD3Jr7dIFaeHzw7SUX5ZGbhOmqWBbVxd6CrlS4V0-sLKJ8guBHWVWxBC7-NkExxgeCn0dOCccTX5-bnyAtLnh0baDeUC5dC3kmktMtMAECi06f1IQIvkkJk5RKi3T5-09leW4X0Zmewm6S2lMfImfMggFejmrpVaZ438HioGp-J9IDcY7ObbU-F2uUlCLCzAKgGX6q9JDnnX9N1TkD8g__"
     ]
   },
   {
@@ -398,7 +398,7 @@
     "name": "KBS WORLD",
     "title": "KBS WORLD",
     "uris": [
-      "https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4Nzk2MTU0OX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=WdnyI0RFaXqGhkgExj-YOvHNC-LX1JmBkAz9ZGKC7mJUpa8l79ESDvDpcFbiea6IP8LxUZVH4CoEa1r15b0dnTPt7GpJEI4-U4JVAaQR5bfU5OAhnpy25VQwf9LaZAqGPAPy~S4XroJu35RKQ-Iz~rqo1pG227EaBbMOXLGucADuvxYV7BpS8thfafzZkCafG4lb2QAOnyWr3Hbo--9Zc55hfpZLsMBPOj4T4NJUiokbogvZqzm7AVOvNNxobDhV--hjhXBK9R3OXgaHtA7gJTEKv6euPcbhCWv54f7R8ScXoatkzMtrdt2U9W~aghbt3Nt6EKLXSNjK4Rs86FzcqA__"
+      "https://world.gscdn.kbs.co.kr/world-02/world-02_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly93b3JsZC5nc2Nkbi5rYnMuY28ua3Ivd29ybGQtMDIvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4ODAwNDc4OX19fV19&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=kp~H1qdSzdFy-dU~6SacdZVBcWVPzS1MIRMMET3FdnDanuSyDsBIWnKaNE2uO-vr4O4CK07Ewgm0KcbYjxFsICSH3Lyi-y31SS6UYU8UFXW2MLKo6zm1E1KWU-rNCha5KBj0dD03C-y0eyT-bgdyZmcoWXarHx1XhwCsP0K1pezuLCQDV-MvLpEnuvqUTYM8cxp~33XRe9beuSp2J~CAP4YzB9OHl-mUHHTo7paWwBJTij4Xb42mGJ8wBjeEr-emkKZpTrHSEVCnoNtFHf0Taj0rrp94CETnQ00iOn5TYQ0Y2B-RYNzMj0RDgnoN4ml5-YkRrzY3N5J7DIVYyWin4Q__"
     ]
   },
   {
@@ -407,7 +407,7 @@
     "name": "KBS뉴스",
     "title": "KBS뉴스",
     "uris": [
-      "https://news24.gscdn.kbs.co.kr/news24-02/news24-02_hd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9uZXdzMjQuZ3NjZG4ua2JzLmNvLmtyL25ld3MyNC0wMi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3OTYxNTQ5fX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=hKVaSflL6YkNNVM9pNb7X7bt-vOOvCWR99GsR8aFv0m6eQMiak1-9psgmcnaCQPqmE8GhLQGBiMvJ6piQrQQpwYxvmsiUYh8cKqc7zgi0HOe3SRQYEWErslqVOmk9CSuBBj6eOe6OJp6NxIXNjzxiT9uEror3vgd3Ix-z5AB6KrOco8hFwcNnMuEFk~rGc~iLemywZirCZAOFiXMYVHzZASsYgf-3~-gUsjqpjeheTlvMS6X72R97VjbdqdA0cHdwx8bHAQZ3AW26MFF-VDfXgSTxkHw1AEEue8MvyFmNb3og7yAqzcOgrxQ-V5BJL2D~P7nuVbB7ioJL5wa39yOrQ__"
+      "https://news24.gscdn.kbs.co.kr/news24-02/news24-02_hd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9uZXdzMjQuZ3NjZG4ua2JzLmNvLmtyL25ld3MyNC0wMi8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg4MDA0Nzk1fX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=hwAC9hTU66SjM2zAD6toE3mj6UHLw8jdTOgobynwIpYoIjj4m2sfe08krqtyHr233rDFoJ1ylMp13vTJLqztDyuGLNWgjghIIp4eH10tL25m3UquYitokg8FCTUjG5tL2zDS7Qr~uVriU3C6PBTTkP-kE4EQaagLmHCC4rpFxcZUTfPKcMOOjaKNedvnfIXPZNb8JaBQTvlW89TKOJAUcP3F0FFLDZddfJHDhlwgpoPsagi99w7ocRakSKk~SaBHEX1qJEVff1Qt968vGPx7RmIbsjBvkffis5zF2aAFzg3qxztJb3NmhYq~YWECe-TEKIHSlPFd6F1FA~o9Mcuv8Q__"
     ]
   },
   {
@@ -416,7 +416,7 @@
     "name": "SBS플러스",
     "title": "SBS플러스",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDY4MDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiIwYTViY2UxZS1kNDBmLTQ2MzEtOWFiOS1hMjRlODAzODU4ZmMiLCJpYXQiOjE3ODc3OTk2MDV9.-kGJRoq3dTaxEF2RPgA2O42rdwU8mCL_6elfL1_Vqa8"
+      "https://tvlive.sbs.co.kr/sbspluspc/sbsplus1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4Mjg0MDUsInBhdGgiOiIvc2JzcGx1czEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJkMWE0ODdmNS0xOGQ0LTRlOGMtYTYxMC1iZGRmMmQ1MTAwY2IiLCJpYXQiOjE3ODc4MjEyMDV9._Mzk5DJTY85EbYaSEUJp8E9lKu_i4WfzRydHyatxICs"
     ]
   },
   {
@@ -425,7 +425,7 @@
     "name": "SBS퍼니",
     "title": "SBS퍼니",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDMyMTIsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjZjZDc3YTdhLTEwYWUtNDBhOC04M2MxLTkzNTEwMDQyNDFlYyIsImlhdCI6MTc4Nzc5NjAxMn0.dwmYgeU2FwTmqoMYd_lM2HxyzRaX0co79v2mK7EgLb4"
+      "https://tvlive.sbs.co.kr/sbsetvpc/sbsetv1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4NDY0MTMsInBhdGgiOiIvc2JzZXR2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6ImJhYzI2YmUyLTBjOGEtNGI3My1iNGYzLWIxZGQ4M2JiNzE4YyIsImlhdCI6MTc4NzgzOTIxM30.b50JaPGGRnNNw3FOXQ3VmaAw9dNKEiLns4dySCkL0ok"
     ]
   },
   {
@@ -434,7 +434,7 @@
     "name": "SBS LIFE",
     "title": "SBS LIFE",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDY4MTQsInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjJmNGE3ZjhjLTljMGMtNGIyMS04YWZjLTk0MjY3Zjc3ODZkZCIsImlhdCI6MTc4Nzc5OTYxNH0.wEkYbPJz1OwJVOxzw4-JwCNDLN3e4VUQ3p4i1l-PLYw"
+      "https://tvlive.sbs.co.kr/sbsfil/sbsfil1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4NDY0MTYsInBhdGgiOiIvc2JzZmlsMS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjkwNjQ1NzhjLTcxYmQtNDI4Yy05MTg0LWMwNGIyYjBiMGFlMSIsImlhdCI6MTc4NzgzOTIxNn0.spP6wCpcMV3Jbtc8PmdIt-thHYjIuQj-tdHtvO1LLmQ"
     ]
   },
   {
@@ -443,7 +443,7 @@
     "name": "SBS골프",
     "title": "SBS골프",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDY4MjEsInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJkMjIzYTc5OC1hMzgyLTQyMzEtODIxYS05YmU3NGRmMTFhZDYiLCJpYXQiOjE3ODc3OTk2MjF9.zE5XRd1xJQPjWWnzE62qBbBRLPPj3stDaoqej34_NYQ"
+      "https://tvlive.sbs.co.kr/sbsgolf/sbsgolf1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4NDY0MjQsInBhdGgiOiIvc2JzZ29sZjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJkYmZlNTg3NS00MWRhLTQ5ZmItYjliZC0zNzgyOGU5OGVhNmEiLCJpYXQiOjE3ODc4MzkyMjR9.-M1t8-l6dFV8ou_Nq_KfIeIjbWwWiNvFm7bHH_4gDuk"
     ]
   },
   {
@@ -452,7 +452,7 @@
     "name": "SBS Golf2",
     "title": "SBS Golf2",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDY4MjQsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiMTVmMDc0MTMtZWNkYS00YjBlLWFmZjktNWMwNjgyMmQ2NDNmIiwiaWF0IjoxNzg3Nzk5NjI0fQ.dELOoM7V_eQ-SeN1g6eMBQ_cmzC3hvk84gFWqdFJFS8"
+      "https://tvlive.sbs.co.kr/sbsgolf2/sbsgolf21.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4NDY0MjcsInBhdGgiOiIvc2JzZ29sZjIxLnN0cmVhbSIsImR1cmF0aW9uIjotMSwidW5vIjoiNDRkMTQ5MzctMTMwZS00NTE2LWI1YjItMzViYzJlZTMxZTE3IiwiaWF0IjoxNzg3ODM5MjI3fQ.QQSlq1sxcZixtDuL4-olYSmWhG-7L3SJRlfMLGQluHc"
     ]
   },
   {
@@ -461,7 +461,7 @@
     "name": "SBS스포츠",
     "title": "SBS스포츠",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbsespn/sbsespn1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc3OTI0MTgsInBhdGgiOiIvc2JzZXNwbjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI5MzE5ODlmNC02NTQzLTQ2YWUtYWEzMi04Zjg4NzdmZmE1ZGMiLCJpYXQiOjE3ODc3ODUyMTh9.ewXVBMgXU51NXUE70RR0pEiGic1oIIAnfuF9aZejcfM"
+      "https://tvlive.sbs.co.kr/sbsespn/sbsespn1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MjEyMTgsInBhdGgiOiIvc2JzZXNwbjEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJjNzBhZmQ0Ny03NWJjLTRkMTAtODRjMC0yNWJiOTQzMDk3NDIiLCJpYXQiOjE3ODc4MTQwMTh9.5oRmYvqahuZeOLuXJIp5wGnLuNx88MTC9W-CktJ_VI4"
     ]
   },
   {
@@ -470,7 +470,7 @@
     "name": "SBS Biz",
     "title": "SBS Biz",
     "uris": [
-      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4MDY4MDgsInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiI0Y2Y0NjhiYS02YTBhLTQ1YzMtYTlkYi01NDY2ZmE0NjFiM2IiLCJpYXQiOjE3ODc3OTk2MDh9.LGwcTxa-RVpMKO40fiNh0xSrKaJ7l9PIP7EBXlOYm3o"
+      "https://tvlive.sbs.co.kr/sbscnbc/sbscnbc1.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODc4NDY0MDgsInBhdGgiOiIvc2JzY25iYzEuc3RyZWFtIiwiZHVyYXRpb24iOi0xLCJ1bm8iOiJmYWQyNjliMy0zYjExLTQ1N2EtODk1Ni0yYTM3MmU4YmEyZDciLCJpYXQiOjE3ODc4MzkyMDh9.61JGthzuR_r1cLz6OLtnh3cjY5ewBy-4dvqTh4raA9s"
     ]
   },
   {
@@ -479,7 +479,7 @@
     "name": "MBC드라마넷",
     "title": "MBC드라마넷",
     "uris": [
-      "https://dramaottsd.imbc.com/plus_drama_sd/_definst_/drama_sd.stream/chunklist.m3u8?_lsu_sa_=6E317917835F3434C141854636D1B74DE5603625ED0272BD3F5033a386473CB635aE83F738128E4F00743651D5bCF1F836EC634082658997093BCAEA6AD40EFD86949754127C92BB930548047C6946D1AA9BF5E70599C90A05403DEE665B39D55AFFC741220077FFC691B9237CA7440A52CAA17C54E35B3AA022DE67D9E87EB0&v=3"
+      "https://dramaottsd.imbc.com/plus_drama_sd/_definst_/drama_sd.stream/chunklist.m3u8?_lsu_sa_=6D21E11DE3713D149244555535F15B4F65973B050304B2FD3C70C3aE76E03AB669aE63A432521041A0FA3F0182bB415210BCE682AC90BB59EBCB326F5F16109E3D9ABA7E47C9238BF4BE158D04B602628F83AC82BE082107892ACD39FC646CE6693CC94CAAB22C5EEF28988DD89CDAEFBEB7458CF1AF98B4E97B89CD6CF99463&v=3"
     ]
   },
   {
@@ -488,7 +488,7 @@
     "name": "MBC에브리원",
     "title": "MBC에브리원",
     "uris": [
-      "https://every1ottsd.imbc.com/plus_every1_sd/_definst_/every1_sd.stream/chunklist.m3u8?_lsu_sa_=6131EF1293F035E4A84BE54B3A71DA4A05B33095600362393A00AEaA76B63186AAaA83443E322849F0043481D6b841273C36BD6308ED8E6860F5345A164E53AD80EB2D71D688B83B8B405F9F2A2180DC82D20237EC5F7DECBB66D97AFDCE6867C802D25BD795A62DEB4167C625B849EEDD47D9D2577827B7166FDFC2AD02E6CC&v=3"
+      "https://every1ottsd.imbc.com/plus_every1_sd/_definst_/every1_sd.stream/chunklist.m3u8?_lsu_sa_=6851FF17936C31442741057535C1524505903A05620D325D352002a5E68437C6DAa523653E82C24990C33F41B3b881F15F00B332A099676096B58FD296C7B11218BD0BA9DD7E0038CE8D9327568759D0FE26205CC4F908721D6CBB9C90F01B3CC021CF1E823B033666C61BEF1B737DC8E47F258A486CE0A07498B4E4345AD4E9&v=3"
     ]
   },
   {
@@ -497,7 +497,7 @@
     "name": "MBC M",
     "title": "MBC M",
     "uris": [
-      "https://mbcmottsd.imbc.com/plus_mbcm_sd/_definst_/mbcm_sd.stream/chunklist.m3u8?_lsu_sa_=65E1321343AC3A840549B5063421C44E257631851E0062F03110E5a8265D3256B2aBD3E33302A74190BF3DF13CbFB103C78FE9CFFE00A42621D015BA4FEB42EF6249259098AB35392FCD25475EBC81BAF40C1BA7A6AC298DB95018C23522741C22A1A150AEA3C15C198EC3500C1E83CB&v=3"
+      "https://mbcmottsd.imbc.com/plus_mbcm_sd/_definst_/mbcm_sd.stream/chunklist.m3u8?_lsu_sa_=67E10A13131E3CA4F342357B3271024B35583EB53F0F923D3CA039a1465A38260BaA83D037B2434D101639F196bA11304F52506206BDB02DEDB054B3C7235D7AA79A35BDE7F9E528AF9582B61D2FCB37493FAD3320AAAA39C64D8A4858C31A4D661A33ED65ADA477128AAC77BA309B3A&v=3"
     ]
   },
   {
@@ -506,7 +506,7 @@
     "name": "MBC ON",
     "title": "MBC ON",
     "uris": [
-      "https://mbconottsd.imbc.com/plus_mbcon_sd/_definst_/mbcon_sd.stream/chunklist.m3u8?_lsu_sa_=6B216E16634E3EB4E947452738814B42C5AA3CE5D00C82323E80A1a766D83EE6BAaA834431B25D43F01D3F7129bEF1B47A5EE398C42351C1A359F7B351B5FF83DA7FF8965BFCDA49641670FC7050D1F65C20713C7ED1E0B32ACB1E140119811A24B823C9E2D765CB908B4FEBFCA898C7AC2EF4D8A2C41A5C68FA549C19D9DF68&v=3"
+      "https://mbconottsd.imbc.com/plus_mbcon_sd/_definst_/mbcon_sd.stream/chunklist.m3u8?_lsu_sa_=6801311AD37C3684F942F58837E11A4575E338D5EB0682E73770C6a766693D76E9a4C37437B25E4F2043392117bF91E9BA2EC63C05DE5521A5A290FE07ADFA883F21B429CB8C7FAA3EC01A41B72CB3A765B0A5D7B4355CA5BBC49C99A68BCC3AEAB07BD6263DD8EB7D0CC5FD53C88F1DCFB120A7178B6CBDFDF52F287A559B28&v=3"
     ]
   },
   {
@@ -515,7 +515,7 @@
     "name": "MBCNET",
     "title": "MBCNET",
     "uris": [
-      "https://m-mbcnetlive.imbc.com/mbcnet_onair/_definst_/mbcnet_500k.stream/chunklist.m3u8?_lsu_sa_=67119B14536237648F42C54C38D1E84835E03545AC0092E83E90E7a426873D860Ca0C3353102084720053F4181bF613D726942702E2D126A5204865F4DEFA5707E11EB75DB897F89B3306E93266BB6AB20E1C9A523AEFB257896BA3C6FDFEE236B69346277F6FB5852A850996B495A60B020839E73B75BA5E769631F9C28C840&v=3"
+      "https://m-mbcnetlive.imbc.com/mbcnet_onair/_definst_/mbcnet_500k.stream/chunklist.m3u8?_lsu_sa_=6681131F43F63764254745353D61EE4775943955ED0542493550E5aEA64037C6F8aCD3C63B12224290F130C137bAD1F6D5852D1E7E30CA25023E658E4A8B5E5705894231A7A1172F30597130D7A09F914C05430FFB9631EBDCF5574D83506C97C03114C49DFF40BAE16D97A1A23BFCE5938B6F8F900ED27403D23DEA650C6333&v=3"
     ]
   },
   {
